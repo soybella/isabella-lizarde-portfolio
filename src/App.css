@@ -314,9 +314,9 @@ img {
     width: 100%;
   }
 
-  p {
+  /* p {
     text-align: center;
-  }
+  } */
 
   .portfolio-profile-image {
     width: 350px;
@@ -325,8 +325,9 @@ img {
 
   .project-description,
   .about-content {
-    display: grid;
-    width: 100%;
+    display: block;
+    width: fit-content;
+    /* margin: 0 auto; */
   }
 
   .work-header {
