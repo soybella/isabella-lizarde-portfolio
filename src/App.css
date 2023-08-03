@@ -159,6 +159,10 @@ img {
   text-transform: capitalize;
 }
 
+.contact-info {
+  max-width: 500px;
+}
+
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -217,7 +221,7 @@ img {
 
 .button-link {
   border-radius: 5px;
-  padding: 20px 15px;
+  padding: 12px 24px;
   text-transform: capitalize;
   text-decoration: none;
   background: var(--primary-color);
@@ -233,6 +237,12 @@ img {
 
 .work-inquiry h1 {
   font-size: 48px;
+}
+
+.input-details {
+  display: grid;
+  max-width: 650px;
+  grid-gap: 20px;
 }
 
 .work-header {
@@ -297,7 +307,7 @@ img {
   margin-top: 25px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   h2,
   h4 {
     text-align: center;
@@ -332,7 +342,7 @@ img {
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .navbar-list {
     justify-content: left;
   }
