@@ -23,11 +23,11 @@ h5 {
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 60px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 40px;
   text-align: left;
   margin-left: 0;
 }
@@ -54,7 +54,7 @@ h4 {
 
 p {
   border-radius: 4px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: start;
 }
@@ -133,7 +133,7 @@ img {
 .portfolio-profile-image {
   display: flex;
   justify-items: center;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
 .portfolio-profile-image {
@@ -145,7 +145,17 @@ img {
 }
 
 .about-content {
+  display: flex;
   padding-top: 30px;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-header h2 {
+  width: fit-content;
+  padding-bottom: 5px;
+  border-bottom: 3px solid #49beb7;
 }
 
 /* .navigation-links {

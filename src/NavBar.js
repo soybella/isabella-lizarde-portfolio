@@ -41,7 +41,7 @@ export default function NavBar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="/about.html"
+                  href="#about"
                   title="Isabella's about page"
                 >
                   About

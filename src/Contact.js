@@ -5,7 +5,7 @@ export default function Contact() {
     <div className="Contact">
       <div className="container work-inquiry container-bg mt-5">
         <div className="row">
-          <h1>Contact me 💌 </h1>
+          <h1 className="text-center">Contact me 💌 </h1>
           {/* <div className="col-md-6"> */}
           <form>
             <div className="row">
@@ -27,7 +27,7 @@ export default function Contact() {
                   coffee and chat about anything true crime or paranormal, I'm
                   your girl! <br /> <br /> Go ahead and send me a message on
                   here or on any of my social media accounts, thanks for
-                  stopping by ♡
+                  stopping by ❤︎
                 </p>
                 <div class="social-media">
                   {/* <a
