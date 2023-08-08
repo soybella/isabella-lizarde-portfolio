@@ -14,7 +14,7 @@ export default function Contact() {
                 <input type="text" placeholder="email"></input>
                 <textarea placeholder="message"></textarea>
                 <a
-                  href="#"
+                  href="mailto:isabellaj.lizarde@gmail.com"
                   className="button-link work-inquiry-link"
                   title="Work Inquiry"
                 >
@@ -52,6 +52,7 @@ export default function Contact() {
                         href="https://www.facebook.com/IsabellaJanellee"
                         title="Isabella's Facebook"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i class="fa-brands fa-github"></i>
                       </a>
@@ -61,6 +62,7 @@ export default function Contact() {
                         href="https://www.linkedin.com/in/isabellalizarde/"
                         title="Isabella's LinkedIn"
                         target="_blank"
+                        rel="noreferrer"
                       >
                         <i class="fa-brands fa-linkedin"></i>
                       </a>
