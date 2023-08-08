@@ -9,9 +9,10 @@ function App() {
     <div className="App">
       <NavBar />
       <div className="hero">
-        <h1 className="p-4">Isabella Lizarde</h1>
-        <h3>Front-end developer, based in California 🇺🇸</h3>
-        <div className="navigation-links mb-5">
+        <h1 className="pb-2">Isabella Lizarde</h1>
+        <h2 className="pb-2">Front-end developer </h2>
+        <h2 className="pb-2">based in California 🇺🇸</h2>
+        {/* <div className="navigation-links">
           <a
             href="/contact.html"
             className="contact-link"
@@ -22,7 +23,7 @@ function App() {
           <a href="/about.html" className="about-link" title="About Isabella">
             About me
           </a>
-        </div>
+        </div> */}
       </div>
       <Main />
       <Footer />

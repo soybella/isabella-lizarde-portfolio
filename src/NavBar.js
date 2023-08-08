@@ -4,19 +4,15 @@ import "./App.css";
 
 export default function NavBar() {
   return (
-    <div className="NavBar">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-        <div className="container">
+    <div className="NavBar fixed-top bg-white">
+      <nav className="navbar navbar-expand-lg">
+        <div className="container navbar-length p-0 mx-5">
           <a
             className="navbar-brand"
             href="/index.html"
             title="Isabella's homepage"
           >
-            <img
-              src={logo}
-              alt="Isabella's Logo"
-              className="logo-small d-md-block"
-            />
+            <img src={logo} alt="Isabella's Logo" className="logo-small" />
           </a>
           <button
             className="navbar-toggler"
@@ -60,7 +56,7 @@ export default function NavBar() {
                   Work
                 </a>
               </li>
-              <li className="nav-item">
+              <li className="nav-item m-0">
                 <a
                   className="nav-link"
                   href="/contact.html"
