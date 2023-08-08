@@ -10,14 +10,9 @@ export default function Main() {
       <div class="container about-content pt-5">
         <div class="row">
           <div class="col-sm">
-            <h2 class="mb-3">Hi I am Isabella Lizarde</h2>
-            <h4 class="mb-3">Front-end developer</h4>
-            <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean.
-            </p>
+            <h2 class="mb-3">About Me</h2>
+            <h5 class="mb-3">Hello World!</h5>
+            <p>My name is Isabella Lizarde</p>
             <div class="mt-5">
               <a href="#" class="button-link" title="View Isabella's projects">
                 View My projects

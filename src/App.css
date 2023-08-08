@@ -15,9 +15,9 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   font-family: var(--header-font);
-  text-align: center;
   opacity: 0.9;
   text-transform: uppercase;
 }
@@ -30,6 +30,10 @@ h2 {
   font-size: 35px;
   text-align: left;
   margin-left: 0;
+}
+
+h5 {
+  text-transform: capitalize;
 }
 
 p,
@@ -61,6 +65,13 @@ img {
   box-shadow: var(--box-shadow);
 }
 
+.downArrow {
+  position: absolute;
+  padding-top: 85vh;
+  text-align: center;
+  width: 100vw;
+}
+
 .logo-small {
   max-height: 50.5px;
   box-shadow: none;
@@ -87,14 +98,26 @@ img {
 }
 
 .hero {
-  /* background: var(--hero-color); */
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   height: 100vh;
   flex-direction: column;
-  padding-left: 60px;
   padding-top: 76.5px;
+}
+
+.hero-container {
+  overflow: hidden;
+}
+
+.header h1 {
+  animation: 2s ease-in-out slideinright;
+  text-align: center;
+}
+
+.header h2 {
+  animation: 2s ease-in-out slideinleft;
+  text-align: center;
 }
 
 .container-bg {
@@ -287,6 +310,30 @@ img {
   margin-top: 25px;
 }
 
+@keyframes slideinright {
+  from {
+    margin-left: 250%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slideinleft {
+  from {
+    margin-left: -350%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 @media (max-width: 991px) {
   h1,
   h2,
@@ -303,6 +350,14 @@ img {
 
   .hero {
     padding-left: 0;
+  }
+
+  .header h1 {
+    font-size: 45px;
+  }
+
+  .header h2 {
+    font-size: 30px;
   }
 
   .project-description,
@@ -341,7 +396,6 @@ img {
   }
 
   .nav-item a {
-    /* padding: 5px; */
     color: var(--header-font);
   }
 }

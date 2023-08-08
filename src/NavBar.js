@@ -31,7 +31,7 @@ export default function NavBar() {
                 <a
                   className="nav-link active"
                   aria-current="page"
-                  href="/index.html"
+                  href="#homepage"
                   alt="Isabella's homepage"
                   title="Isabella's homepage"
                 >
