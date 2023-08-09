@@ -6,10 +6,10 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="homepage">
       <NavBar />
       <div className="hero-container">
-        <div className="hero" id="homepage">
+        <div className="hero">
           <div className="header">
             <h1 className="pb-2">Isabella Lizarde</h1>
             <h2 className="pb-2">Front-end developer </h2>

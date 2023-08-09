@@ -4,12 +4,12 @@ import "./App.css";
 
 export default function NavBar() {
   return (
-    <div className="NavBar fixed-top bg-white">
-      <nav className="navbar navbar-expand-lg">
-        <div className="container navbar-length p-0 mx-5">
+    <div className="NavBar">
+      <nav className="navbar navbar-expand-lg fixed-top">
+        <div className="container-fluid navbar-length p-0">
           <a
             className="navbar-brand"
-            href="/index.html"
+            href="#homepage"
             title="Isabella's homepage"
           >
             <img src={logo} alt="Isabella's Logo" className="logo-small" />
