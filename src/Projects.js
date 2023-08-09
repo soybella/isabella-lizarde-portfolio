@@ -6,14 +6,10 @@ export default function Projects() {
       <div className="container pt-5">
         <div className="row">
           <div className="col-sm-6 d-none d-md-block">
-            <img
-              src="/images/ramen-project.png"
-              className="img-fluid portfolio-image"
-              alt="Ramen Project Screenshot"
-            />
+            <img src="#" className="img-fluid portfolio-image" alt="#" />
           </div>
           <div className="col-sm-6 project-description">
-            <h2 className="mb-3">Ramen App</h2>
+            <h2 className="mb-3">World Clock</h2>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
@@ -53,25 +49,17 @@ export default function Projects() {
             </div>
           </div>
           <div className="col-sm-6 d-none d-md-block">
-            <img
-              src="/images/weather-app-project.png"
-              className="img-fluid portfolio-image"
-              alt="Weather App Screenshot"
-            />
+            <img src="#" className="img-fluid portfolio-image" alt="#" />
           </div>
         </div>
       </div>
       <div className="container">
         <div className="row mt-5">
           <div className="col-sm-6 d-none d-md-block">
-            <img
-              src="/images/hobby-project.png"
-              className="img-fluid portfolio-image"
-              alt="Favorite Hobby Project Screenshot"
-            />
+            <img src="#" className="img-fluid portfolio-image" alt="#" />
           </div>
           <div className="col-sm-6 project-description">
-            <h2 className="mb-3">Favorite Hobby App</h2>
+            <h2 className="mb-3">Dictionary App</h2>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
