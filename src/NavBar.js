@@ -51,9 +51,9 @@ export default function NavBar() {
                 <a
                   className="nav-link"
                   href="/work.html"
-                  title="Isabella's work page"
+                  title="Isabella's projects page"
                 >
-                  Work
+                  Projects
                 </a>
               </li>
               <li className="nav-item m-0">
