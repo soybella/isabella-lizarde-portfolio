@@ -9,7 +9,7 @@ export default function Skills() {
         {/* <div className="skills-container justify-content-center"> */}
         <h2 className="text-center">Skills</h2>
         <div className="skills-container justify-content-center">
-          <div className="col-md-4 text-center">
+          <div className="col-3 col-md-4 text-center">
             <div className="skills-icon">
               <i className="fa-brands fa-html5"></i>
               <h4>HTML5</h4>
@@ -27,7 +27,7 @@ export default function Skills() {
               <h4>API</h4>
             </div>
           </div>
-          <div className="col-md-4 text-center">
+          <div className="col-3 col-md-4 text-center">
             <div className="skills-icon">
               <i className="fa-brands fa-react"></i>
               <h4>React</h4>
@@ -48,16 +48,10 @@ export default function Skills() {
             </div>
           </div>
 
-          <div className="col-md-4 text-center">
+          <div className="col-3 col-md-4 text-center">
             <div className="skills-icon">
               <i className="fa-brands fa-bootstrap"></i>
               <h4>Bootstrap</h4>
-            </div>
-            <div className="skills-icon">
-              <div className="img-icon responsive-icon">
-                <img src={responsiveIcon} alt="responsive-icon" />
-              </div>
-              <h4>Responsive Design</h4>
             </div>
             <div className="skills-icon">
               <i className="fa-brands fa-npm"></i>
@@ -66,6 +60,12 @@ export default function Skills() {
             <div className="skills-icon">
               <i className="fa-solid fa-magnifying-glass"></i>
               <h4>SEO</h4>
+            </div>
+            <div className="skills-icon">
+              <div className="img-icon responsive-icon">
+                <img src={responsiveIcon} alt="responsive-icon" />
+              </div>
+              <h4>Responsive Design</h4>
             </div>
           </div>
         </div>

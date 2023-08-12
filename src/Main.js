@@ -27,9 +27,9 @@ export default function Main() {
                 friendly websites. <br />
               </p>
               <p>
-                When I'm not coding, I like to spend my free time with my dogs,
-                grabbing a coffee, or catching up on the most recent video game
-                I've been playing.
+                When I'm not coding, I like to spend my free time walking my
+                dogs or catching up on the most recent video game! Feel free to
+                send me a message below or on any of my socials!
               </p>
             </div>
           </div>
