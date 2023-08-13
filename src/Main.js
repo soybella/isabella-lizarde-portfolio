@@ -7,11 +7,18 @@ import profilePhoto from "./images/temp-profile-image.JPG";
 export default function Main() {
   return (
     <div className="Main" id="about">
-      <div className="container about-container">
+      <div className="container about-container text-start">
         <div className="row">
+          <div className="col-lg-6 d-none d-lg-block">
+            <img
+              src={profilePhoto}
+              className="img-fluid rounded portfolio-profile-image"
+              alt="Isabella Lizarde"
+            />
+          </div>
           <div className="col-lg-6">
             <div className="about-header">
-              <h2 className="mb-4">About Me</h2>
+              <h2 className="mb-4 header">About Me</h2>
               <h5 className="mb-3">Hello World!</h5>
             </div>
             <div className="about-bio">
@@ -32,13 +39,6 @@ export default function Main() {
                 send me a message below or on any of my socials!
               </p>
             </div>
-          </div>
-          <div className="col-lg-6 d-none d-lg-block">
-            <img
-              src={profilePhoto}
-              className="img-fluid rounded portfolio-profile-image"
-              alt="Isabella Lizarde"
-            />
           </div>
         </div>
       </div>

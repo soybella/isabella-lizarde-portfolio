@@ -2,7 +2,8 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <div className="Projects">
+    <div className="Projects" id="projects">
+      <h2 className="header text-center">Projects</h2>
       <div className="container pt-5">
         <div className="row">
           <div className="col-sm-6 d-none d-md-block">
@@ -40,7 +41,7 @@ export default function Projects() {
             </p>
             <div className="mt-5">
               <a
-                href="#homepage"
+                href="#weather"
                 className="button-link"
                 title="Weather App Website"
               >

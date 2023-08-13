@@ -42,6 +42,7 @@ export default function NavBar() {
                 <a
                   className="nav-link"
                   href="#about"
+                  alt="Isabella's about page"
                   title="Isabella's about page"
                 >
                   About
@@ -50,7 +51,18 @@ export default function NavBar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
-                  href="/work.html"
+                  href="#skills"
+                  alt="Isabella's skills page"
+                  title="Isabella's skills page"
+                >
+                  Skills
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="#projects"
+                  alt="Isabella's projects page"
                   title="Isabella's projects page"
                 >
                   Projects
@@ -59,7 +71,8 @@ export default function NavBar() {
               <li className="nav-item m-0">
                 <a
                   className="nav-link"
-                  href="/contact.html"
+                  href="#contact"
+                  alt="Isabella's contact page"
                   title="Isabella's contact page"
                 >
                   Contact
