@@ -41,6 +41,7 @@ export default function NavBar() {
               <li className="nav-item">
                 <a
                   className="nav-link"
+                  aria-current="page"
                   href="#about"
                   alt="Isabella's about page"
                   title="Isabella's about page"
