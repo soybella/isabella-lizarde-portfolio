@@ -5,7 +5,7 @@ import "./App.css";
 export default function NavBar() {
   return (
     <div className="NavBar">
-      <nav className="navbar navbar-expand-lg fixed-top">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid navbar-length p-0">
           <a
             className="navbar-brand"

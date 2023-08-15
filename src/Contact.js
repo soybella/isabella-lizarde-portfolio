@@ -3,9 +3,9 @@ import React from "react";
 export default function Contact() {
   return (
     <div className="Contact" id="contact">
-      <div className="container work-inquiry container-bg mt-5">
+      <div className="container container-bg mt-4">
         <div className="row">
-          <h1 className="text-center">Contact me 💌 </h1>
+          <h2 className="header text-center border-0">Contact me 💌 </h2>
           {/* <div className="col-md-6"> */}
           <form>
             <div className="row">

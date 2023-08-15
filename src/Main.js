@@ -7,9 +7,9 @@ import profilePhoto from "./images/temp-profile-image.JPG";
 export default function Main() {
   return (
     <div className="Main" id="about">
-      <div className="container about-container text-start">
+      <div className="about-container container text-start">
         <div className="row">
-          <div className="col-lg-6 d-none d-lg-block">
+          <div className="col-lg-6 border border-primary d-none d-lg-block">
             <img
               src={profilePhoto}
               className="img-fluid rounded portfolio-profile-image"
@@ -42,10 +42,14 @@ export default function Main() {
           </div>
         </div>
       </div>
+      {/* <div className="row"> */}
       <Skills />
-      <br />
+      {/* </div> */}
+      {/* <br /> */}
+      {/* <div className="row"> */}
       <Projects />
-      <br />
+      {/* </div> */}
+      {/* <br /> */}
       <Contact />
     </div>
   );

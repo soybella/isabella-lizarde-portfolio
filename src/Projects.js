@@ -4,8 +4,8 @@ import dictionaryProject from "./images/dictionary-project.png";
 export default function Projects() {
   return (
     <div className="Projects" id="projects">
-      <h2 className="header text-center">Projects</h2>
-      <div className="container projects-container pt-5">
+      <h2 className="header container text-center">Projects</h2>
+      <div className="container projects-container px-3">
         <div className="row">
           <div className="col-md-6 portfolio-project-image d-md-block">
             <img

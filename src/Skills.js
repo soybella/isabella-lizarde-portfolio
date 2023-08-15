@@ -5,10 +5,10 @@ import responsiveIcon from "./images/responsive-icon.jpeg";
 export default function Skills() {
   return (
     <div className="Skills" id="skills">
-      <div className="container text-center pt-3">
+      <div className="container text-center">
         {/* <div className="skills-container justify-content-center"> */}
         <h2 className="text-center header">Skills</h2>
-        <ul className="skills-container p-4">
+        <ul className="skills-container p-3">
           {/* <div className="col-3 col-md-4 text-center"> */}
           <li className="skills-icon">
             <i className="fa-brands fa-html5"></i>
@@ -36,12 +36,12 @@ export default function Skills() {
             <i className="fa-brands fa-github"></i>
             <h4>GitHub</h4>
           </li>
-          <li className="skills-icon">
+          {/* <li className="skills-icon">
             <div className="img-icon vscode-icon">
               <img src={vscodeIcon} alt="vscode-icon" />
             </div>
             <h4>VSCode</h4>
-          </li>
+          </li> */}
           <li className="skills-icon">
             <i className="fa-solid fa-terminal"></i>
             <h4>Terminal</h4>
@@ -53,10 +53,10 @@ export default function Skills() {
             <i className="fa-brands fa-bootstrap"></i>
             <h4>Bootstrap</h4>
           </li>
-          <li className="skills-icon">
+          {/* <li className="skills-icon">
             <i className="fa-brands fa-npm"></i>
             <h4>NPM</h4>
-          </li>
+          </li> */}
           <li className="skills-icon">
             <i className="fa-solid fa-magnifying-glass"></i>
             <h4>SEO</h4>
