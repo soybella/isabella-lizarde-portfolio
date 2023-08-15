@@ -1,5 +1,4 @@
 import React from "react";
-import vscodeIcon from "./images/vscode-icon.png";
 import responsiveIcon from "./images/responsive-icon.jpeg";
 
 export default function Skills() {
