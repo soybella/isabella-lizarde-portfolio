@@ -16,17 +16,52 @@ export default function Projects() {
           </div>
           <div className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="mb-3">Dictionary App</h3>
-            <p className="p-4">
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean.
+            <p className="p-2 m-0">
+              A simple React dictionary app with a search engine that uses API
+              integration to look up the definition of a word along with a
+              gallery of relative photos.
             </p>
-            <div className="project-skills-icons">
-              <ul>
-                <li>icon</li>
-                <li>icon</li>
-                <li>icon</li>
+            <div className="project-skills-icons pt-2">
+              <ul className="d-flex p-0 justify-content-start">
+                <p className="p-2">Technologies used: </p>
+                <li className="skills-icon p-2">
+                  <i className="fa-brands fa-html5"></i>
+                </li>
+                <li className="skills-icon p-2">
+                  <i className="fa-brands fa-css3-alt"></i>
+                </li>
+                <li className="skills-icon p-2">
+                  <i className="fa-brands fa-square-js"></i>
+                </li>
+                <li className="skills-icon p-2">
+                  <i className="fa-solid fa-gear"></i>
+                </li>
+                <li className="skills-icon p-2">
+                  <i className="fa-brands fa-bootstrap"></i>
+                </li>
+                <li className="skills-icon p-2">
+                  <i className="fa-brands fa-react"></i>
+                </li>
+              </ul>
+              <ul className="d-flex justify-content-evenly project-button">
+                <li className="project-button">
+                  <a
+                    href="mailto:isabellaj.lizarde@gmail.com"
+                    className="button-link work-inquiry-link"
+                    title="Work Inquiry"
+                  >
+                    View Live
+                  </a>
+                </li>
+                <li className="project-button">
+                  <a
+                    href="mailto:isabellaj.lizarde@gmail.com"
+                    className="button-link work-inquiry-link"
+                    title="Work Inquiry"
+                  >
+                    GitHub
+                  </a>
+                </li>
               </ul>
               {/* <a
                 href="#homepage"

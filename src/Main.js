@@ -7,16 +7,16 @@ import profilePhoto from "./images/temp-profile-image.JPG";
 export default function Main() {
   return (
     <div className="Main" id="about">
-      <div className="about-container container text-start">
+      <div className="about-container container">
         <div className="row">
-          <div className="col-lg-6 border border-primary d-none d-lg-block">
+          <div className="col-lg-6 text-end border border-primary portfolio-about-image d-none d-lg-block">
             <img
               src={profilePhoto}
               className="img-fluid rounded portfolio-profile-image"
               alt="Isabella Lizarde"
             />
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-6 about-me-container">
             <div className="about-header">
               <h2 className="mb-4 header">About Me</h2>
               <h5 className="mb-3">Hello World!</h5>
