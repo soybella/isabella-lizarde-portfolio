@@ -35,8 +35,8 @@ export default function Main() {
               </p>
               <p>
                 When I'm not coding, I like to spend my free time walking my
-                dogs or catching up on the most recent video game! Feel free to
-                send me a message below or on any of my socials!
+                dogs or catching up on the most recent video game I'm playing!
+                Feel free to send me a message below or on any of my socials.
               </p>
             </div>
           </div>

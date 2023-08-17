@@ -26,8 +26,7 @@ export default function Contact() {
                   If you have any questions about my work or want to grab a
                   coffee and chat about anything true crime or paranormal, I'm
                   your girl! <br /> <br /> Go ahead and send me a message on
-                  here or on any of my social media accounts, thanks for
-                  stopping by ❤︎
+                  here or on any of my socials, thanks for stopping by ❤︎
                 </p>
                 <div class="social-media">
                   {/* <a
