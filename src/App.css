@@ -710,7 +710,7 @@ img {
     /* opacity: 1; */
     display: flex;
     width: 100%;
-    height: 350px;
+    height: auto;
     /* padding: 0; */
     /* justify-content: center; */
     /* align-items: center; */
@@ -719,19 +719,19 @@ img {
     /* backface-visibility: hidden; */
   }
 
-  .overlay {
+  .responsive-project-description {
     /* position: absolute; */
     display: flex;
     flex-direction: column;
     /* background: rgba(0, 0, 0, 0.8); */
     /* color: white; */
     height: 350px;
-    width: 530px;
+    width: 100%;
     margin: 0 auto;
     /* transition: 150ms ease-in-out; */
   }
 
-  .overlay i {
+  .responsive-project-description i {
     font-size: 40px;
   }
 
