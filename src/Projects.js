@@ -8,9 +8,9 @@ import worldClockProject from "./images/world-clock.png";
 export default function Projects() {
   return (
     <div className="Projects" id="projects">
-      <h2 className="header container text-center">Projects</h2>
+      <h2 className="header text-center">Projects</h2>
       {/* project 1 */}
-      <div className="container projects-container p-4">
+      <div className="container projects-container">
         <div className="row">
           <div className="col-md-6 portfolio-project-image d-md-block">
             <img
@@ -146,7 +146,7 @@ export default function Projects() {
       </div>
 
       {/* project 2 */}
-      <div className="container projects-container p-4">
+      <div className="container projects-container">
         <div className="row">
           <div className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="mb-3">Weather App</h3>
@@ -268,7 +268,7 @@ export default function Projects() {
       </div>
 
       {/* project 3 */}
-      <div className="container projects-container p-4">
+      <div className="container projects-container">
         <div className="row">
           <div className="col-md-6 portfolio-project-image d-md-block">
             <img
@@ -386,7 +386,7 @@ export default function Projects() {
       </div>
 
       {/* project 4 */}
-      <div className="container projects-container p-4">
+      <div className="container projects-container">
         <div className="row">
           <div className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="mb-3">World Clock</h3>

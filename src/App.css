@@ -190,7 +190,7 @@ img {
 /* .about-header h2, */
 .header {
   width: fit-content;
-  padding-bottom: 5px;
+  /* padding-bottom: 7px; */
   border-bottom: 3px solid #49beb7;
 }
 
@@ -374,6 +374,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 80px;
+  padding-bottom: 90px;
   /* height: 100vh; */
 }
 
@@ -422,12 +424,13 @@ img {
 
 .Skills h2 {
   margin: 0 auto;
-  /* margin-bottom: 30px; */
+  margin-bottom: 80px;
 }
 
 .Skills,
 .Projects {
   /* border: 1px solid blue; */
+  padding-bottom: 80px;
   /* overflow: hidden; */
   /* display: flexbox; */
   /* flex-direction: column; */
