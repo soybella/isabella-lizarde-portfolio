@@ -15,18 +15,19 @@ export default function Contact() {
                 <textarea placeholder="message"></textarea>
                 <a
                   href="mailto:isabellaj.lizarde@gmail.com"
-                  className="button-link work-inquiry-link"
-                  title="Work Inquiry"
+                  className="button-link contact-button-link"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Send Message
                 </a>
               </div>
               <div className="contact-info container">
-                <p>
+                <p className="">
                   If you have any questions about my work or want to grab a
-                  coffee and chat about anything true crime or paranormal, I'm
-                  your girl! <br /> <br /> Go ahead and send me a message on
-                  here or on any of my socials, thanks for stopping by ❤︎
+                  coffee and chat about anything true crime or paranormal - go
+                  ahead and send me a message on here or on any of my socials,
+                  thanks for stopping by!
                 </p>
                 <div class="social-media">
                   {/* <a

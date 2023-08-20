@@ -111,7 +111,7 @@ img {
   height: 100vh;
   flex-direction: column;
   padding-top: 76.5px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .hero-container {
@@ -204,7 +204,7 @@ img {
   /* height: 100vh; */
   align-items: center;
   justify-content: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* overflow: hidden; */
 }
 
@@ -214,7 +214,7 @@ img {
   align-items: center;
   /* height: 100vh; */
   flex-direction: column;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 /* .navigation-links {
@@ -232,7 +232,7 @@ img {
 } */
 
 .contact-info {
-  max-width: 550px;
+  max-width: 450px;
 }
 
 .contact-link {
@@ -302,15 +302,15 @@ img {
   font-size: 19px;
 }
 
-/* .work-inquiry-link {
+.contact-button-link {
   display: block;
   margin: 0 auto;
   width: fit-content;
-} */
-
-.work-inquiry h1 {
-  font-size: 48px;
 }
+
+/* .work-inquiry h1 {
+  font-size: 48px;
+} */
 
 .input-details {
   display: grid;
@@ -318,11 +318,11 @@ img {
   grid-gap: 20px;
 }
 
-.work-header {
+/* .work-header {
   font-size: 64px;
   text-align: left;
   width: 100%;
-}
+} */
 
 .Projects i {
   font-size: 40px;
@@ -370,7 +370,7 @@ img {
 } */
 
 .projects-container {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -427,7 +427,7 @@ img {
 
 .Skills,
 .Projects {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* overflow: hidden; */
   /* display: flexbox; */
   /* flex-direction: column; */
@@ -468,7 +468,7 @@ img {
   /* flex-basis: 40%; */
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   /* overflow: hidden; */
   /* height: 100vh; */
   /* margin: 0 auto; */
@@ -495,7 +495,7 @@ img {
 .Footer {
   /* display: inline; */
   /* justify-content: center; */
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 .footer p {
@@ -509,7 +509,7 @@ img {
 
 #contact {
   /* margin-top: 25px; */
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 @keyframes slideinright {
@@ -726,7 +726,7 @@ img {
     /* background: rgba(0, 0, 0, 0.8); */
     /* color: white; */
     height: 350px;
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
     /* transition: 150ms ease-in-out; */
   }

@@ -9,7 +9,7 @@ export default function Main() {
     <div className="Main" id="about">
       <div className="about-container container">
         <div className="row">
-          <div className="col-lg-6 text-end border border-primary portfolio-about-image d-none d-lg-block">
+          <div className="col-lg-6 text-end portfolio-about-image d-none d-lg-block">
             <img
               src={profilePhoto}
               className="img-fluid rounded portfolio-profile-image"
@@ -35,11 +35,14 @@ export default function Main() {
               </p>
               <p>
                 When I'm not coding, I like to spend my free time walking my
-                dogs or catching up on the most recent video game I'm playing!
-                Feel free to send me a message below or on any of my socials.
+                dogs, catching up on some video games, or finding a new favorite
+                local coffee shop ☕️
+                <br /> <br />
+                Feel free to send me a message below if you have any questions!
               </p>
             </div>
           </div>
+           
         </div>
       </div>
       {/* <div className="row"> */}
