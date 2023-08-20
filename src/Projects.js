@@ -19,7 +19,7 @@ export default function Projects() {
               alt="#"
             />
           </div>
-          <div className="responsive-project-description d-sm-block d-lg-none project-description">
+          <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Dictionary App</h3>
             <p className="p-2 m-3 text-center">
               A simple React dictionary app with a search engine that uses API
@@ -210,7 +210,7 @@ export default function Projects() {
               alt="#"
             />
           </div>
-          <div className="responsive-project-description d-sm-block d-lg-none project-description">
+          <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Weather App</h3>
             <p className="p-2 m-3 text-center">
               A React weather app with a search engine that displays live
@@ -277,7 +277,7 @@ export default function Projects() {
               alt="#"
             />
           </div>
-          <div className="responsive-project-description d-sm-block d-lg-none project-description">
+          <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Travel Site</h3>
             <p className="p-2 m-3 text-center">
               A travel site that uses vanilla HTML, HTML embeds, and advanced
@@ -440,7 +440,7 @@ export default function Projects() {
               alt="#"
             />
           </div>
-          <div className="responsive-project-description d-sm-block d-lg-none project-description">
+          <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">World Clock</h3>
             <p className="p-2 m-3 text-center">
               {" "}
