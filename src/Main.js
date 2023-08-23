@@ -3,13 +3,14 @@ import Skills from "./Skills.js";
 import Projects from "./Projects.js";
 import Contact from "./Contact.js";
 import profilePhoto from "./images/temp-profile-image.JPG";
+import "./Main.css";
 
 export default function Main() {
   return (
     <div className="Main" id="about">
       <div className="about-container container">
         <div className="row">
-          <div className="col-lg-6 text-end portfolio-about-image d-none d-lg-block">
+          <div className="col-lg-6 portfolio-about-image d-none d-lg-block">
             <img
               src={profilePhoto}
               className="img-fluid rounded portfolio-profile-image"
@@ -19,7 +20,7 @@ export default function Main() {
           <div className="col-lg-6 about-me-container">
             <div className="about-header">
               <h2 className="mb-4 header">About Me</h2>
-              <h5 className="mb-3">Hello World!</h5>
+              <h5 className="mb-3 text-center">Hello World!</h5>
             </div>
             <div className="about-bio">
               <p>
@@ -35,8 +36,8 @@ export default function Main() {
               </p>
               <p>
                 When I'm not coding, I like to spend my free time walking my
-                dogs, catching up on some video games, or finding a new favorite
-                local coffee shop ☕️
+                dogs, catching up on some video games, or finding a new local
+                coffee shop ☕️
                 <br /> <br />
                 Feel free to send me a message below if you have any questions!
               </p>
@@ -45,14 +46,8 @@ export default function Main() {
            
         </div>
       </div>
-      {/* <div className="row"> */}
       <Skills />
-      {/* </div> */}
-      {/* <br /> */}
-      {/* <div className="row"> */}
       <Projects />
-      {/* </div> */}
-      {/* <br /> */}
       <Contact />
     </div>
   );

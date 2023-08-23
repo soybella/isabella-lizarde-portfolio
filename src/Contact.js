@@ -1,4 +1,5 @@
 import React from "react";
+import "./Contact.css";
 
 export default function Contact() {
   return (
@@ -6,7 +7,6 @@ export default function Contact() {
       <div className="container container-bg mt-4">
         <div className="row">
           <h2 className="header text-center border-0">Contact me 💌 </h2>
-          {/* <div className="col-md-6"> */}
           <form>
             <div className="row">
               <div className="container col-sm input-details">
@@ -23,34 +23,18 @@ export default function Contact() {
                 </a>
               </div>
               <div className="contact-info container">
-                <p className="">
+                <p>
                   If you have any questions about my work or want to grab a
                   coffee and chat about anything true crime or paranormal - go
                   ahead and send me a message on here or on any of my socials,
                   thanks for stopping by!
                 </p>
                 <div class="social-media">
-                  {/* <a
-                    href="mailto:isabellaj.lizarde@gmail.com"
-                    class="email-link text-muted"
-                    title="Email Isabella"
-                  >
-                    isabellaj.lizarde@gmail.com
-                  </a> */}
                   <ul class="icons pt-3">
-                    {/* <li>
-                      <a
-                        href="https://www.instagram.com/s0ybella_/"
-                        title="Isabella's Instagram"
-                        target="_blank"
-                      >
-                        <i class="fa-brands fa-instagram"></i>
-                      </a>
-                    </li> */}
                     <li>
                       <a
-                        href="https://www.facebook.com/IsabellaJanellee"
-                        title="Isabella's Facebook"
+                        href="https://github.com/soybella"
+                        title="Isabella's Github"
                         target="_blank"
                         rel="noreferrer"
                       >
@@ -75,6 +59,5 @@ export default function Contact() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }

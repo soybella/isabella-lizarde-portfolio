@@ -1,0 +1,66 @@
+.portfolio-project-image,
+.portfolio-profile-image {
+  box-shadow: none;
+}
+
+.portfolio-profile-image {
+  display: flex;
+  height: auto;
+  width: 80%;
+}
+
+.portfolio-about-image {
+  padding: 70px;
+}
+
+.about-bio p {
+  text-align: start;
+}
+
+.about-header h2 {
+  display: flex;
+  margin-left: 0;
+}
+
+.header {
+  width: fit-content;
+  border-bottom: 3px solid #49beb7;
+}
+
+.header {
+  margin: 0 auto;
+}
+
+.about-container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 990px) {
+  .about-header {
+    display: grid;
+    justify-content: center;
+  }
+
+  .about-header h2 {
+    margin: 0 auto;
+  }
+
+  .about-header p {
+    text-align: center;
+  }
+
+  .portfolio-project-image {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+}
