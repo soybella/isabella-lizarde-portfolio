@@ -1,5 +1,4 @@
 import React from "react";
-import responsiveIcon from "./images/responsive-icon.jpeg";
 import "./Skills.css";
 
 export default function Skills() {
