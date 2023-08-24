@@ -45,9 +45,7 @@ export default function Skills() {
             <h4>SEO</h4>
           </li>
           <li className="skills-icon">
-            <div className="img-icon responsive-icon">
-              <img src={responsiveIcon} alt="responsive-icon" />
-            </div>
+            <i class="fa-solid fa-mobile-screen-button"></i>
             <h4>Responsive Design</h4>
           </li>
         </ul>

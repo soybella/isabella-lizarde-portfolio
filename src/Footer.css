@@ -1,0 +1,8 @@
+.footer p {
+  font-size: 15px;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}

@@ -9,8 +9,8 @@ export default function WorldClockProject() {
           <div className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="mb-3">World Clock</h3>
             <p className="p-2 m-0">
-              A web app that uses advanced elements of JavaScript to create
-              display a clock with times from different places around the world.
+              A web app that uses advanced elements of JavaScript to display a
+              clock with times from different places around the world.
             </p>
             <div className="project-skills-icons pt-2">
               <ul className="d-flex p-0 justify-content-center">

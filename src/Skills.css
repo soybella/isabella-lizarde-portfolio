@@ -9,6 +9,15 @@
 
 .Skills i {
   font-size: 65px;
+  transition: all 150ms ease-in-out;
+  padding: 15px;
+}
+
+.Skills i:hover,
+.Skills .img-icon img:hover {
+  color: var(--primary-color);
+  filter: contrast(90%);
+  transform: scale(1.2);
 }
 
 .Skills .img-icon img {
@@ -16,6 +25,7 @@
   width: auto;
   border: none;
   box-shadow: none;
+  transition: all 150ms ease-in-out;
 }
 
 .skills-container {
@@ -29,15 +39,32 @@
 .skills-icon {
   display: flex;
   list-style: none;
-
   flex-direction: column;
-
   max-height: 100px;
   text-align: center;
 }
 
 .Skills h4 {
   font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  .Skills h2 {
+    font-size: 35px;
+  }
+  .skills-icon i {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Skills h2 {
+    font-size: 30px;
+  }
+
+  .skills-icon i {
+    font-size: 55px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -52,9 +79,5 @@
 
   .skills-icon i {
     font-size: 55px;
-  }
-
-  .img-icon img {
-    height: 45px;
   }
 }
