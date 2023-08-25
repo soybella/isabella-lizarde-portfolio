@@ -1,6 +1,5 @@
 import React from "react";
 import travelSiteProject from "./images/responsive-travel-site.png";
-import responsiveIcon from "./images/responsive-icon.jpeg";
 
 export default function TravelProject() {
   return (
@@ -23,24 +22,21 @@ export default function TravelProject() {
             </p>
             <div className="project-skills-icons pt-2">
               <ul className="d-flex p-0 justify-content-center">
-                <li className="skills-icon p-2">
-                  <i className="fa-brands fa-html5"></i>
-                </li>
-                <li className="skills-icon p-2">
-                  <i className="fa-brands fa-css3-alt"></i>
-                </li>
-                <li className="skills-icon p-2">
-                  <i className="fa-brands fa-square-js"></i>
-                </li>
-                <li className="skills-icon p-2">
-                  <i className="fa-solid fa-gear"></i>
-                </li>
-                <li className="skills-icon p-2">
-                  <i className="fa-brands fa-bootstrap"></i>
-                </li>
-                <li className="skills-icon p-2">
-                  <i className="fa-brands fa-react"></i>
-                </li>
+                <ul className="d-flex p-0 justify-content-center">
+                  <p className="p-2">Technologies used: </p>
+                  <li className="skills-icon p-2">
+                    <i className="fa-brands fa-html5"></i>
+                  </li>
+                  <li className="skills-icon p-2">
+                    <i className="fa-brands fa-css3-alt"></i>
+                  </li>
+                  <li className="skills-icon p-2">
+                    <i className="fa-brands fa-square-js"></i>
+                  </li>
+                  <li className="skills-icon">
+                    <i class="fa-solid fa-mobile-screen-button"></i>
+                  </li>
+                </ul>
               </ul>
               <ul className="d-flex justify-content-evenly project-button pt-3">
                 <li className="project-button">
@@ -88,9 +84,7 @@ export default function TravelProject() {
                   <i className="fa-brands fa-square-js"></i>
                 </li>
                 <li className="skills-icon">
-                  <div className="projects-img-icon responsive-icon">
-                    <img src={responsiveIcon} alt="responsive-icon" />
-                  </div>
+                  <i class="fa-solid fa-mobile-screen-button"></i>
                 </li>
               </ul>
               <ul className="d-flex justify-content-evenly project-button">

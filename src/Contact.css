@@ -50,11 +50,31 @@
   .button-link {
     padding: 12px 24px;
   }
+
+  .Contact h2 {
+    font-size: 35px;
+  }
+
+  .contact-info p {
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 1200px) {
   .button-link {
     padding: 9px 15px;
+  }
+
+  .Contact h2 {
+    font-size: 30px;
+  }
+
+  .contact-info p {
+    font-size: 17px;
+  }
+
+  .contact-info {
+    max-width: 50%;
   }
 }
 
