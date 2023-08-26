@@ -33,7 +33,7 @@ export default function TravelProject() {
                   <li className="skills-icon p-2">
                     <i className="fa-brands fa-square-js"></i>
                   </li>
-                  <li className="skills-icon">
+                  <li className="skills-icon p-2">
                     <i class="fa-solid fa-mobile-screen-button"></i>
                   </li>
                 </ul>
@@ -65,14 +65,14 @@ export default function TravelProject() {
             </div>
           </div>
           <div className="col-lg-6 d-none d-lg-block project-description">
-            <h3 className="mb-3">Travel Site</h3>
-            <p className="p-2 m-0">
+            <h3 className="mb-3 text-start">Travel Site</h3>
+            <p className="p-2 m-0 text-start">
               A travel site that uses vanilla HTML, HTML embeds, and advanced
               CSS techniques such as Flexbox to create a sophisticated
               responsive design.
             </p>
-            <div className="project-skills-icons pt-2">
-              <ul className="d-flex p-0 justify-content-center">
+            <div className="project-skills-icons pt-4">
+              <ul className="d-flex p-0 justify-content-start">
                 <p className="p-2">Technologies used: </p>
                 <li className="skills-icon p-2">
                   <i className="fa-brands fa-html5"></i>
@@ -83,12 +83,12 @@ export default function TravelProject() {
                 <li className="skills-icon p-2">
                   <i className="fa-brands fa-square-js"></i>
                 </li>
-                <li className="skills-icon">
+                <li className="skills-icon p-2">
                   <i class="fa-solid fa-mobile-screen-button"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-evenly project-button">
-                <li className="project-button">
+              <ul className="d-flex justify-content-start project-button px-0 pt-4">
+                <li className="project-button p-0">
                   <a
                     href="https://isabellalizarde-travel-santa-monica.netlify.app/"
                     className="button-link"

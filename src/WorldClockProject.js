@@ -1,5 +1,6 @@
 import React from "react";
 import worldClockProject from "./images/world-clock.png";
+import "./App.css";
 
 export default function WorldClockProject() {
   return (
@@ -7,13 +8,13 @@ export default function WorldClockProject() {
       <div className="container projects-container">
         <div className="row">
           <div className="col-lg-6 d-none d-lg-block project-description">
-            <h3 className="mb-3">World Clock</h3>
-            <p className="p-2 m-0">
+            <h3 className="mb-3 text-end">World Clock</h3>
+            <p className="p-2 m-0 text-end">
               A web app that uses advanced elements of JavaScript to display a
               clock with times from different places around the world.
             </p>
-            <div className="project-skills-icons pt-2">
-              <ul className="d-flex p-0 justify-content-center">
+            <div className="project-skills-icons pt-4">
+              <ul className="d-flex p-0 justify-content-end">
                 <p className="p-2">Technologies used: </p>
                 <li className="skills-icon p-2">
                   <i className="fa-brands fa-html5"></i>
@@ -25,7 +26,7 @@ export default function WorldClockProject() {
                   <i className="fa-brands fa-square-js"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-evenly project-button">
+              <ul className="d-flex justify-content-end project-button pt-4">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-world-clock.netlify.app/"
@@ -61,8 +62,7 @@ export default function WorldClockProject() {
           <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">World Clock</h3>
             <p className="p-2 m-3 text-center">
-              {" "}
-              web app that uses advanced elements of JavaScript to create
+              A web app that uses advanced elements of JavaScript to create
               display a clock with times from different places around the world.
             </p>
             <div className="project-skills-icons pt-2">
@@ -77,7 +77,7 @@ export default function WorldClockProject() {
                   <i className="fa-brands fa-square-js"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-evenly project-button pt-3">
+              <ul className="d-flex project-button pt-3">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-world-clock.netlify.app/"

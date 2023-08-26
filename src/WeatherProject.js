@@ -7,14 +7,14 @@ export default function WeatherProject() {
       <div className="container projects-container">
         <div className="row">
           <div className="col-lg-6 d-none d-lg-block project-description">
-            <h3 className="mb-3">Weather App</h3>
-            <p className="p-2 m-0">
+            <h3 className="mb-3 text-end">Weather App</h3>
+            <p className="p-2 m-0 text-end">
               A React weather app with a search engine that displays live
               weather for the current day, as well as a five day forecast using
               API integration.
             </p>
-            <div className="project-skills-icons pt-2">
-              <ul className="d-flex p-0 justify-content-center">
+            <div className="project-skills-icons pt-4">
+              <ul className="d-flex p-0 justify-content-end">
                 <p className="p-2">Technologies used: </p>
                 <li className="skills-icon p-2">
                   <i className="fa-brands fa-html5"></i>
@@ -35,7 +35,7 @@ export default function WeatherProject() {
                   <i className="fa-brands fa-react"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-evenly project-button">
+              <ul className="d-flex justify-content-end project-button pt-4">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-weather-app.netlify.app/"
