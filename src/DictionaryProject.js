@@ -24,7 +24,7 @@ export default function DictionaryProject() {
               gallery of relative photos.
             </p>
             <div className="project-skills-icons pt-2">
-              <ul className="d-flex p-0 justify-content-center">
+              <ul className="d-flex justify-content-center p-0">
                 <li className="skills-icon p-2">
                   <i className="fa-brands fa-html5"></i>
                 </li>
@@ -44,7 +44,7 @@ export default function DictionaryProject() {
                   <i className="fa-brands fa-react"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-evenly project-button pt-3">
+              <ul className="d-flex justify-content-center project-button responsive-project-button pt-3">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-dictionary-app.netlify.app/"

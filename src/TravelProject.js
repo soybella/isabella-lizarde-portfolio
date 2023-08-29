@@ -38,7 +38,7 @@ export default function TravelProject() {
                   </li>
                 </ul>
               </ul>
-              <ul className="d-flex justify-content-evenly project-button pt-3">
+              <ul className="d-flex justify-content-center responsive-project-button project-button pt-3">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-travel-santa-monica.netlify.app/"

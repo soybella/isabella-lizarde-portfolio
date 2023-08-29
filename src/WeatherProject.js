@@ -96,7 +96,7 @@ export default function WeatherProject() {
                   <i className="fa-brands fa-react"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-evenly project-button pt-3">
+              <ul className="d-flex justify-content-center project-button responsive-project-button pt-3">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-weather-app.netlify.app/"
