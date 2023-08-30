@@ -23,7 +23,6 @@ export default function TravelProject() {
             <div className="project-skills-icons pt-2">
               <ul className="d-flex p-0 justify-content-center">
                 <ul className="d-flex p-0 justify-content-center">
-                  <p className="p-2">Technologies used: </p>
                   <li className="skills-icon p-2">
                     <i className="fa-brands fa-html5"></i>
                   </li>
@@ -38,7 +37,7 @@ export default function TravelProject() {
                   </li>
                 </ul>
               </ul>
-              <ul className="d-flex justify-content-center responsive-project-button project-button pt-3">
+              <ul className="d-flex justify-content-center project-button responsive-project-button pt-3">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-travel-santa-monica.netlify.app/"
@@ -88,7 +87,7 @@ export default function TravelProject() {
                 </li>
               </ul>
               <ul className="d-flex justify-content-start project-button px-0 pt-4">
-                <li className="project-button p-0">
+                <li className="project-button">
                   <a
                     href="https://isabellalizarde-travel-santa-monica.netlify.app/"
                     className="button-link"

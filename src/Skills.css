@@ -30,7 +30,7 @@
 
 .skills-container {
   display: grid;
-  grid-gap: 30px;
+  grid-gap: 100px;
   grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   align-items: center;
@@ -70,7 +70,7 @@
 @media (max-width: 990px) {
   .skills-container {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
+    grid-gap: 40px;
   }
 
   .skills-icon {
