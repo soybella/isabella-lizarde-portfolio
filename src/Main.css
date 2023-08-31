@@ -67,7 +67,7 @@
 
 @media (max-width: 1200px) {
   .about-bio p {
-    font-size: 16px;
+    font-size: 16.5px;
   }
 
   .about-header h2 {
@@ -77,11 +77,11 @@
 
   .about-header h5 {
     text-align: center;
-    font-size: 16px;
+    font-size: 16.5px;
   }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
   .about-header {
     display: grid;
     justify-content: center;
@@ -93,6 +93,7 @@
 
   .about-bio p {
     font-size: 20px;
+    text-align: center;
   }
 
   .about-header h5 {

@@ -6,6 +6,8 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --header-font: "Ysabeau Infant", sans-serif;
   --paragraph-font: "Ysabeau Infant", sans-serif;
+  --typewriterSpeed: 6s;
+  --typewriterCharacters: steps(20);
 }
 
 body {
@@ -21,7 +23,7 @@ h4,
 h5 {
   font-family: var(--header-font);
   opacity: 0.9;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 h1 {
@@ -91,13 +93,62 @@ img {
 }
 
 .hero-header h1 {
-  animation: 2s ease-in-out slideInRight;
+  /* animation: 2s ease-in-out slideInRight; */
   text-align: center;
+  font-family: "Source Code Pro", monospace;
+  text-transform: none;
+  position: relative;
+}
+
+.hero-header h1::before,
+.hero-header h1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hero-header h1::before {
+  background: white;
+  animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
+    forwards;
+}
+
+.hero-header h1::after {
+  width: 3px;
+  background: black;
+  animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
+      forwards,
+    blink 750ms var(--typewriterCharacters) infinite;
+}
+
+@keyframes typewriter {
+  to {
+    left: 100%;
+  }
+}
+
+@keyframes blink {
+  to {
+    background: transparent;
+  }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .hero-header h2 {
-  animation: 2s ease-in-out slideInLeft;
+  /* animation: 2s ease-in-out slideInLeft; */
   text-align: center;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
 
 .container-bg {
@@ -217,7 +268,7 @@ img {
 
 @media (max-width: 1400px) {
   .hero-header h1 {
-    font-size: 55px;
+    font-size: 60px;
   }
 
   .hero-header h2 {
@@ -301,7 +352,7 @@ img {
   }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
   /* body {
     justify-items: center;
   } */
@@ -373,5 +424,17 @@ img {
     display: flex;
     width: 100%;
     height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-header h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-header h1 {
+    font-size: 30px;
   }
 }

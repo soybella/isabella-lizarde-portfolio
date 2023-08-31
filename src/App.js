@@ -11,8 +11,8 @@ function App() {
       <div className="hero-container">
         <div className="hero">
           <div className="hero-header">
-            <h1 className="pb-2">Isabella Lizarde</h1>
-            <h2 className="pb-2">Front-end developer </h2>
+            <h1>Hello, I'm Isabella.</h1>
+            <h2 className="py-2">Front-end developer </h2>
           </div>
           <p className="downArrow">
             <i className="fa-solid fa-chevron-down fa-bounce"></i>

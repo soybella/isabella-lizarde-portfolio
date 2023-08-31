@@ -15,7 +15,7 @@
 .nav-item {
   margin-right: 25px;
   font-size: 18px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 .navbar-nav .nav-link.active,
@@ -23,7 +23,7 @@
   color: var(--primary-color);
 }
 
-@media (max-width: 990px) {
+@media (max-width: 992px) {
   .fixed-top {
     position: static;
   }
