@@ -19,13 +19,12 @@ export default function Main() {
           </div>
           <div className="col-lg-6 about-me-container">
             <div className="about-header">
-              <h2 className="mb-4 header">About Me</h2>
-              <h5 className="mb-3 text-center">Hello World!</h5>
+              <h2 className="header">About Me</h2>
             </div>
             <div className="about-bio">
               <p>
-                My name is Isabella Lizarde, and I'm a Front-end Web Developer
-                based in California 🇺🇸 <br />
+                Hello World! My name is Isabella Lizarde, and I'm a Front-end
+                Web Developer based in California 🇺🇸 <br />
               </p>
               <p>
                 I've always had a passion for creating beautiful works of art
@@ -43,7 +42,6 @@ export default function Main() {
               </p>
             </div>
           </div>
-           
         </div>
       </div>
       <Skills />

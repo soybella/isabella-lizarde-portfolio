@@ -7,8 +7,8 @@ import "./App.css";
 function App() {
   return (
     <div className="App" id="homepage">
-      <NavBar />
       <div className="hero-container">
+        <NavBar />
         <div className="hero">
           <div className="hero-header">
             <h1>Hello, I'm Isabella.</h1>

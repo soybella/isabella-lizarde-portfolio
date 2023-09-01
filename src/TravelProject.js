@@ -72,7 +72,7 @@ export default function TravelProject() {
             </p>
             <div className="project-skills-icons pt-4">
               <ul className="d-flex p-0 justify-content-start">
-                <p className="p-2">Technologies used: </p>
+                <p className="p-2">Technologies: </p>
                 <li className="skills-icon p-2">
                   <i className="fa-brands fa-html5"></i>
                 </li>

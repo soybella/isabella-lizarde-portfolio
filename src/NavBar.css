@@ -18,6 +18,10 @@
   /* text-transform: uppercase; */
 }
 
+.nav-item a {
+  font-weight: 500;
+}
+
 .navbar-nav .nav-link.active,
 .navbar-nav .show > .nav-link {
   color: var(--primary-color);
@@ -39,7 +43,7 @@
   }
 
   .nav-item a {
-    color: var(--header-font);
+    color: var(--primary-color);
   }
 
   .navbar-length {
