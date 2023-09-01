@@ -16,9 +16,8 @@ export default function TravelProject() {
           <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Travel Site</h3>
             <p className="p-2 m-3 text-center">
-              A travel site that uses vanilla HTML, HTML embeds, and advanced
-              CSS techniques such as Flexbox to create a sophisticated
-              responsive design.
+              A travel site that uses vanilla HTML and advanced CSS techniques
+              such as Flexbox to create a sophisticated responsive design.
             </p>
             <div className="project-skills-icons pt-2">
               <ul className="d-flex p-0 justify-content-center">
@@ -66,9 +65,8 @@ export default function TravelProject() {
           <div className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="mb-3 text-start">Travel Site</h3>
             <p className="p-2 m-0 text-start">
-              A travel site that uses vanilla HTML, HTML embeds, and advanced
-              CSS techniques such as Flexbox to create a sophisticated
-              responsive design.
+              A travel site that uses vanilla HTML and advanced CSS techniques
+              such as Flexbox to create a sophisticated responsive design.
             </p>
             <div className="project-skills-icons pt-4">
               <ul className="d-flex p-0 justify-content-start">
@@ -86,7 +84,7 @@ export default function TravelProject() {
                   <i class="fa-solid fa-mobile-screen-button"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-start project-button px-0 pt-4">
+              <ul className="d-flex justify-content-start project-button px-0">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-travel-santa-monica.netlify.app/"

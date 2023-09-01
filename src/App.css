@@ -198,7 +198,7 @@ img {
 
 .project-button {
   list-style: none;
-  padding: 16px;
+  /* padding: 10px; */
   padding-left: 20px;
 }
 
@@ -350,6 +350,10 @@ img {
   .Projects i {
     font-size: 30px;
   }
+
+  /* .project-button {
+    padding: 0;
+  } */
 
   .button-link {
     padding: 9px 15px;

@@ -73,9 +73,9 @@ export default function DictionaryProject() {
           <div className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="mb-3 text-start">Dictionary App</h3>
             <p className="p-2 m-0 text-start">
-              A simple React dictionary app with a search engine that uses API
-              integration to look up the definition of a word along with a
-              gallery of relative photos.
+              A React dictionary app with a search engine that uses API
+              integration to display the definition of a word with a gallery of
+              photos.
             </p>
             <div className="project-skills-icons pt-4">
               <ul className="d-flex p-0 justify-content-start">
@@ -99,7 +99,7 @@ export default function DictionaryProject() {
                   <i className="fa-brands fa-react"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-start project-button px-0 pt-4">
+              <ul className="d-flex justify-content-start project-button px-0">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-dictionary-app.netlify.app/"

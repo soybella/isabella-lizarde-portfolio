@@ -26,7 +26,7 @@ export default function WorldClockProject() {
                   <i className="fa-brands fa-square-js"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-end project-button pt-4">
+              <ul className="d-flex justify-content-end project-button">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-world-clock.netlify.app/"

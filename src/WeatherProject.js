@@ -10,8 +10,8 @@ export default function WeatherProject() {
             <h3 className="mb-3 text-end">Weather App</h3>
             <p className="p-2 m-0 text-end">
               A React weather app with a search engine that displays live
-              weather for the current day, as well as a five day forecast using
-              API integration.
+              weather for the current day, and a five day forecast using API
+              integration.
             </p>
             <div className="project-skills-icons pt-4">
               <ul className="d-flex p-0 justify-content-end">
@@ -35,7 +35,7 @@ export default function WeatherProject() {
                   <i className="fa-brands fa-react"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-end project-button pt-4">
+              <ul className="d-flex justify-content-end project-button">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-weather-app.netlify.app/"
@@ -72,8 +72,8 @@ export default function WeatherProject() {
             <h3 className="mt-3">Weather App</h3>
             <p className="p-2 m-3 text-center">
               A React weather app with a search engine that displays live
-              weather for the current day, as well as a five day forecast using
-              API integration.
+              weather for the current day, and a five day forecast using API
+              integration.
             </p>
             <div className="project-skills-icons pt-2">
               <ul className="d-flex p-0 justify-content-center">
