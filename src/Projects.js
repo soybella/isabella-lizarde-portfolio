@@ -3,7 +3,7 @@ import DictionaryProject from "./DictionaryProject";
 import WeatherProject from "./WeatherProject";
 import TravelProject from "./TravelProject";
 import WorldClockProject from "./WorldClockProject";
-import "./App.css";
+import "./Projects.css";
 
 export default function Projects() {
   return (

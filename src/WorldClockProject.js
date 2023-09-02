@@ -1,6 +1,6 @@
 import React from "react";
 import worldClockProject from "./images/world-clock.png";
-import "./App.css";
+import "./Projects.css";
 
 export default function WorldClockProject() {
   return (
@@ -27,7 +27,7 @@ export default function WorldClockProject() {
                 </li>
               </ul>
               <ul className="d-flex justify-content-end project-button">
-                <li className="project-button">
+                <li className="project-button pe-3">
                   <a
                     href="https://isabellalizarde-world-clock.netlify.app/"
                     className="button-link"

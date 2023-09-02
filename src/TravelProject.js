@@ -1,5 +1,6 @@
 import React from "react";
 import travelSiteProject from "./images/responsive-travel-site.png";
+import "./Projects.css";
 
 export default function TravelProject() {
   return (
@@ -96,7 +97,7 @@ export default function TravelProject() {
                     View Live
                   </a>
                 </li>
-                <li className="project-button">
+                <li className="project-button ps-3">
                   <a
                     href="https://github.com/soybella/Responsive-Travel-Site"
                     className="button-link"

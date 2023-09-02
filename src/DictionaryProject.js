@@ -1,6 +1,6 @@
 import React from "react";
 import dictionaryProject from "./images/dictionary-project.png";
-// import "./App.css";
+import "./Projects.css";
 
 export default function DictionaryProject() {
   return (
@@ -99,7 +99,7 @@ export default function DictionaryProject() {
                   <i className="fa-brands fa-react"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-start project-button px-0">
+              <ul className="d-flex justify-content-start project-button ps-0">
                 <li className="project-button">
                   <a
                     href="https://isabellalizarde-dictionary-app.netlify.app/"
@@ -111,7 +111,7 @@ export default function DictionaryProject() {
                     View Live
                   </a>
                 </li>
-                <li className="project-button">
+                <li className="project-button ps-3">
                   <a
                     href="https://github.com/soybella/Dictionary-App"
                     className="button-link"

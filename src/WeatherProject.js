@@ -1,5 +1,6 @@
 import React from "react";
 import weatherProject from "./images/weather-project.png";
+import "./Projects.css";
 
 export default function WeatherProject() {
   return (
@@ -36,7 +37,7 @@ export default function WeatherProject() {
                 </li>
               </ul>
               <ul className="d-flex justify-content-end project-button">
-                <li className="project-button">
+                <li className="project-button pe-3">
                   <a
                     href="https://isabellalizarde-weather-app.netlify.app/"
                     className="button-link"
