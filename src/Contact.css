@@ -1,53 +1,61 @@
-.contact-info {
+.Contact {
+  padding-top: 80px;
+}
+
+.Contact h2 {
+  margin: 0 auto;
+}
+
+.Contact .contact-info {
   max-width: 550px;
 }
 
-.contact-link {
+.Contact .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
 }
 
-.contact-header {
+.Contact .contact-header {
   color: var(--secondary-color);
   font-size: 28px;
 }
 
-.contact-button-link {
+.Contact .contact-button-link {
   display: block;
   margin: 0 auto;
   width: fit-content;
 }
 
-.input-details {
+.Contact .input-details {
   display: grid;
   max-width: 650px;
   grid-gap: 20px;
 }
 
-.social-media ul {
+.Contact .social-media ul {
   display: block;
   list-style-type: none;
   text-align: center;
   padding-left: 0;
 }
 
-.icons li {
+.Contact .icons li {
   display: inline;
   padding: 10px;
 }
 
-.icons a {
+.Contact .icons a {
   color: var(--secondary-color);
   text-decoration: none;
 }
 
-.icons i {
+.Contact .icons i {
   font-size: 25px;
 }
 
 @media (max-width: 1400px) {
-  .button-link {
+  .Contact .button-link {
     padding: 12px 24px;
   }
 
@@ -55,31 +63,30 @@
     font-size: 35px;
   }
 
-  .contact-info p {
+  .Contact .contact-info p {
     font-size: 19px;
   }
 }
 
 @media (max-width: 1200px) {
-  .button-link {
-    padding: 9px 15px;
-  }
-
   .Contact h2 {
     font-size: 30px;
   }
+  .Contact .button-link {
+    padding: 9px 15px;
+  }
 
-  .contact-info p {
+  .Contact .contact-info p {
     font-size: 17px;
   }
 
-  .contact-info {
+  .Contact .contact-info {
     max-width: 50%;
   }
 }
 
 @media (max-width: 992px) {
-  .contact-info {
+  .Contact .contact-info {
     max-width: 650px;
   }
 }

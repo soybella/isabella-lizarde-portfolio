@@ -1,10 +1,10 @@
-.Skills h2 {
-  margin: 0 auto;
-  margin-bottom: 80px;
-}
-
 .Skills {
   padding-bottom: 80px;
+}
+
+.Skills .header {
+  margin-bottom: 80px;
+  border-bottom: 3px solid var(--primary-color);
 }
 
 .Skills i {
@@ -40,19 +40,18 @@
   display: flex;
   list-style: none;
   flex-direction: column;
-  max-height: 100px;
   text-align: center;
 }
 
-.Skills h4 {
-  font-size: 16px;
+.Skills .skills-icon h4 {
+  font-size: 20px;
 }
 
 @media (max-width: 1400px) {
   .Skills h2 {
     font-size: 35px;
   }
-  .skills-icon i {
+  .Skills .skills-icon i {
     font-size: 60px;
   }
 }
@@ -62,22 +61,22 @@
     font-size: 30px;
   }
 
-  .skills-icon i {
+  .Skills .skills-icon i {
     font-size: 55px;
   }
 }
 
 @media (max-width: 992px) {
-  .skills-container {
+  .Skills .skills-container {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
   }
 
-  .skills-icon {
+  .Skills .skills-icon {
     padding: 10px;
   }
 
-  .skills-icon i {
+  .Skills .skills-icon i {
     font-size: 55px;
   }
 }

@@ -4,15 +4,15 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="Contact" id="contact">
-      <div className="container container-bg mt-4">
+      <div className="container container-bg px-5 py-3">
         <div className="row">
-          <h2 className="header text-center border-0 pb-3">Contact me 💌 </h2>
+          <h2 className="header text-center border-0 py-3">Contact me 💌 </h2>
           <form>
             <div className="row">
               <div className="container col-sm input-details">
                 <input type="text" placeholder="name"></input>
                 <input type="text" placeholder="email"></input>
-                <textarea placeholder="message"></textarea>
+                <textarea className="pb-4" placeholder="message"></textarea>
                 <a
                   href="mailto:isabellaj.lizarde@gmail.com"
                   className="button-link contact-button-link"

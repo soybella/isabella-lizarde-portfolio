@@ -23,7 +23,6 @@ h4,
 h5 {
   font-family: var(--header-font);
   opacity: 0.8;
-  /* text-transform: uppercase; */
 }
 
 h1 {
@@ -31,7 +30,6 @@ h1 {
 }
 
 h2 {
-  /* font-size: 40px; */
   text-align: left;
   margin-left: 0;
 }
@@ -55,20 +53,20 @@ h4 {
   opacity: 0.9;
 }
 
-p {
-  border-radius: 4px;
-  font-size: 20px;
-  line-height: 1.5;
-  text-align: start;
-}
-
 img {
   border-radius: 6px;
   border: 1.5px solid rgba(0, 0, 0, 0.3);
   box-shadow: var(--box-shadow);
 }
 
-.downArrow {
+.App p {
+  border-radius: 4px;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: start;
+}
+
+.App .downArrow {
   position: absolute;
   padding-top: 75vh;
   text-align: center;
@@ -76,12 +74,12 @@ img {
   opacity: 0.9;
 }
 
-.logo-small {
+.App .logo-small {
   max-height: 50.5px;
   box-shadow: none;
 }
 
-.hero {
+.App .hero {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,12 +87,11 @@ img {
   flex-direction: column;
 }
 
-.hero-container {
+.App .hero-container {
   overflow: hidden;
 }
 
-.hero-header h1 {
-  /* animation: 2s ease-in-out slideInRight; */
+.App .hero-header h1 {
   text-align: center;
   font-family: "Source Code Pro", monospace;
   font-size: 55px;
@@ -102,8 +99,8 @@ img {
   position: relative;
 }
 
-.hero-header h1::before,
-.hero-header h1::after {
+.App .hero-header h1::before,
+.App .hero-header h1::after {
   content: "";
   position: absolute;
   top: 0;
@@ -112,13 +109,13 @@ img {
   left: 0;
 }
 
-.hero-header h1::before {
+.App .hero-header h1::before {
   background: white;
   animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
     forwards;
 }
 
-.hero-header h1::after {
+.App .hero-header h1::after {
   width: 3px;
   background: black;
   animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
@@ -126,7 +123,35 @@ img {
     blink 875ms var(--typewriterCharacters) infinite;
 }
 
-/* @keyframes typewriter {
+.App .hero-header h2 {
+  text-align: center;
+  font-size: 45px;
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+}
+
+.App .container-bg {
+  background: var(--hero-color);
+  border-radius: 10px;
+}
+
+.App .container {
+  padding: 10px;
+}
+
+.App .button-link {
+  border-radius: 5px;
+  padding: 16px 31px;
+  text-transform: capitalize;
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+  box-shadow: var(--box-shadow);
+  font-size: 19px;
+}
+
+@keyframes typewriter {
   to {
     left: 100%;
   }
@@ -143,228 +168,18 @@ img {
     opacity: 0.8;
     transform: translateY(0);
   }
-} */
-
-.hero-header h2 {
-  /* animation: 2s ease-in-out slideInLeft; */
-  text-align: center;
-  font-size: 45px;
-  /* font-weight: 500; */
-  opacity: 0;
-  transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
-
-.container-bg {
-  background: var(--hero-color);
-  border-radius: 10px;
-}
-
-.container {
-  padding: 20px;
-}
-
-.button-link {
-  border-radius: 5px;
-  padding: 16px 31px;
-  text-transform: capitalize;
-  text-decoration: none;
-  background: var(--primary-color);
-  color: white;
-  box-shadow: var(--box-shadow);
-  font-size: 19px;
-}
-
-/* .portfolio-project-image {
-  box-shadow: none;
-}
-
-.Projects i {
-  font-size: 40px;
-} */
-
-/* .projects-img-icon img {
-  height: 50px;
-  width: auto;
-  border: none;
-  box-shadow: none;
-  margin-left: 6px;
-  margin-top: 3px;
-} */
-
-/* .project-description p {
-  font-size: 22px;
-} */
-
-/* .project-button {
-  list-style: none;
-  /* padding: 10px; */
-/* padding-left: 20px;
-}
-/* 
-.TravelProject .project-description,
-.DictionaryProject .project-description {
-  padding-left: 80px;
-  padding-right: 0;
-} */
-/* 
-.WorldClockProject .project-description,
-.WeatherProject .project-description {
-  padding-right: 80px;
-} */
-
-/* .project-description h3 {
-  font-size: 30px;
-} */
-
-/* .project-description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px; */
-/* padding-right: 60px; */
-/* max-width: 45%; */
-/* transition: 150ms ease-in-out; */
-/* } */
-
-/* .projects-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-  margin-bottom: 90px;
-} */
-
-/* .project-header h3 {
-  font-size: 24px;
-  color: black;
-  font-weight: bolder;
-  opacity: 1;
-} */
-/* 
-.Projects {
-  padding-bottom: 80px;
-} */
-/* 
-@keyframes slideInRight {
-  from {
-    margin-left: 250%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@keyframes slideInLeft {
-  from {
-    margin-left: -350%;
-    width: 100%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-} */
-
 @media (max-width: 1400px) {
-  .hero-header h1 {
+  .App .hero-header h1 {
     font-size: 50px;
   }
 
-  .hero-header h2 {
+  .App .hero-header h2 {
     font-size: 40px;
   }
-
-  /* .Projects h2 {
-    font-size: 35px;
-  } */
-
-  /* .project-description h3 {
-    font-size: 25px;
-  }
-
-  .project-description p {
-    font-size: 19px;
-  }
-
-  .project-skills-icons {
-    padding-top: 16px !important;
-  } */
-  /* 
-  .button-link {
-    padding: 12px 24px;
-  } */
-
-  /* .projects-img-icon img {
-    height: 50px;
-    width: auto;
-    border: none;
-    box-shadow: none;
-    margin-left: 6px;
-    margin-top: 3px;
-  } */
-}
-
-@media (max-width: 1200px) {
-  .hero-header h1 {
-    font-size: 45px;
-  }
-
-  .hero-header h2 {
-    font-size: 35px;
-  }
-
-  /* .Projects h2 {
-    font-size: 27px;
-  }
-
-  .project-description h3 {
-    font-size: 20px;
-  }
-
-  .project-description p {
-    font-size: 17px;
-  }
-
-  .project-description h3 {
-    margin: 0;
-  } */
-
-  /* .project-button {
-    padding: 0;
-  } */
-
-  /* .projects-img-icon img {
-    height: 40px;
-    width: auto;
-    border: none;
-    box-shadow: none;
-    margin-left: 6px;
-    margin-top: 3px;
-  } */
-
-  /* .Projects i {
-    font-size: 30px;
-  } */
-
-  /* .project-button {
-    padding: 0;
-  } */
-  /* 
-  .button-link {
-    padding: 9px 15px;
-  } */
 }
 
 @media (max-width: 992px) {
-  /* body {
-    justify-items: center;
-  } */
-
   h1,
   h2,
   h3,
@@ -373,82 +188,40 @@ img {
     width: 100%;
   }
 
-  .hero {
+  .App .hero {
     padding-left: 0;
     padding-top: 0;
   }
 
-  .downArrow {
+  .App .downArrow {
     padding-top: 75vh;
   }
 
-  .hero-header h1 {
+  .App .hero-header h1 {
     font-size: 40px;
   }
 
-  .hero-header h2 {
+  .App .hero-header h2 {
     font-size: 30px;
   }
-
-  /* .header {
-    font-size: 30px;
-  } */
-
-  /* .project-description {
-    display: block;
-    width: fit-content;
-  } */
-
-  /* .responsive-project-description {
-    display: flex;
-    flex-direction: column;
-    height: 350px;
-    justify-content: center;
-    align-items: center;
-  } */
-
-  /* .responsive-project-button {
-    padding-left: 0;
-  } */
-
-  /* .DictionaryProject .project-description,
-  .WeatherProject .project-description,
-  .TravelProject .project-description,
-  .WorldClockProject .project-description {
-    padding: 0;
-  } */
-
-  /* .responsive-project-description i {
-    font-size: 40px;
-  }
-
-  .projects-container {
-    width: 100%;
-  }
-
-  .portfolio-project-image {
-    display: flex;
-    width: 100%;
-    height: auto;
-  } */
 }
 
 @media (max-width: 768px) {
-  .hero-header h1 {
+  .App .hero-header h1 {
     font-size: 35px;
   }
 
-  .hero-header h2 {
+  .App .hero-header h2 {
     font-size: 25px;
   }
 }
 
 @media (max-width: 576px) {
-  .hero-header h1 {
+  .App .hero-header h1 {
     font-size: 30px;
   }
 
-  .hero-header h2 {
+  .App .hero-header h2 {
     font-size: 20px;
   }
 }

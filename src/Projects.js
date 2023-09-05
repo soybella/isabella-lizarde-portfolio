@@ -8,6 +8,7 @@ import "./Projects.css";
 export default function Projects() {
   return (
     <div className="Projects" id="projects">
+      <h2 className="header container text-center">Projects</h2>
       <DictionaryProject />
       <WeatherProject />
       <TravelProject />

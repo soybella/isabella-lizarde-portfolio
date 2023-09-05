@@ -5,7 +5,6 @@ import "./Projects.css";
 export default function DictionaryProject() {
   return (
     <div className="DictionaryProject">
-      <h2 className="header text-center">Projects</h2>
       <div className="container projects-container">
         <div className="row">
           <div className="col-md-6 portfolio-project-image d-md-block">
