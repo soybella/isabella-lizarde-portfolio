@@ -6,7 +6,9 @@ export default function Contact() {
     <div className="Contact" id="contact">
       <div className="container container-bg px-5 py-3">
         <div className="row">
-          <h2 className="header text-center border-0 py-3">Contact me 💌 </h2>
+          <h2 className="contact-header text-center border-0 py-3">
+            Contact me 💌{" "}
+          </h2>
           <form>
             <div className="row">
               <div className="container col-sm input-details">

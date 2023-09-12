@@ -17,8 +17,8 @@
 }
 
 .Contact .contact-header {
-  color: var(--secondary-color);
-  font-size: 28px;
+  /* color: var(--secondary-color); */
+  font-size: 35px;
 }
 
 .Contact .contact-button-link {

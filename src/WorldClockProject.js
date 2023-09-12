@@ -1,5 +1,5 @@
 import React from "react";
-import worldClockProject from "./images/world-clock.png";
+import worldClockProject from "./images/world-clock-project.png";
 import "./Projects.css";
 
 export default function WorldClockProject() {
@@ -8,7 +8,7 @@ export default function WorldClockProject() {
       <div className="container projects-container">
         <div className="row">
           <div className="col-lg-6 d-none d-lg-block project-description">
-            <h3 className="mb-3 text-end">World Clock</h3>
+            <h3 className="p-2 mb-3 text-end">World Clock</h3>
             <p className="p-2 m-0 text-end">
               A web app that uses advanced elements of JavaScript to display a
               clock with times from different places around the world.

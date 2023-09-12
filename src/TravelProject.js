@@ -1,5 +1,5 @@
 import React from "react";
-import travelSiteProject from "./images/responsive-travel-site.png";
+import travelSiteProject from "./images/travel-site-project.png";
 import "./Projects.css";
 
 export default function TravelProject() {
@@ -64,7 +64,7 @@ export default function TravelProject() {
             </div>
           </div>
           <div className="col-lg-6 d-none d-lg-block project-description">
-            <h3 className="mb-3 text-start">Travel Site</h3>
+            <h3 className="p-2 mb-3 text-start">Travel Site</h3>
             <p className="p-2 m-0 text-start">
               A travel site that uses vanilla HTML and advanced CSS techniques
               such as Flexbox to create a sophisticated responsive design.

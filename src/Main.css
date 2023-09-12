@@ -5,8 +5,8 @@
 .Main .portfolio-profile-image {
   display: flex;
   height: auto;
-  max-width: 400px;
-  margin: 0 auto;
+  max-width: 475px;
+  margin: 0 80px 0 auto;
 }
 
 .Main .portfolio-about-image {
@@ -34,6 +34,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  max-width: 1000px;
 }
 
 .Main .about-container {
@@ -41,6 +42,12 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 80px;
+  padding-right: 35px;
+  padding-left: 35px;
+}
+
+#dark .about-me-container {
+  color: white;
 }
 
 @media (max-width: 1400px) {

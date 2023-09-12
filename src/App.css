@@ -16,6 +16,20 @@ body {
   height: 100vh;
 }
 
+#dark {
+  background-color: #155263;
+}
+
+#dark .toggleSwitch {
+  background-color: white;
+}
+
+#dark .hero-header,
+#dark .downArrow,
+#dark .header {
+  color: white;
+}
+
 h1,
 h2,
 h3,
@@ -32,6 +46,7 @@ h1 {
 h2 {
   text-align: left;
   margin-left: 0;
+  font-size: 37px;
 }
 
 h5 {
@@ -44,7 +59,7 @@ a {
 }
 
 h3 {
-  font-size: 24px;
+  /* font-size: 35px; */
   text-align: center;
 }
 
@@ -59,27 +74,101 @@ img {
   box-shadow: var(--box-shadow);
 }
 
-.App p {
+p {
   border-radius: 4px;
   font-size: 20px;
   line-height: 1.5;
   text-align: start;
 }
 
-.App .downArrow {
+.downArrow {
   position: absolute;
   padding-top: 75vh;
-  text-align: center;
-  width: 100vw;
   opacity: 0.9;
+  width: 100vw;
 }
 
-.App .logo-small {
+.downArrow {
+  text-align: center;
+}
+
+.App .toggleSwitch button {
+  display: flex;
+  border: none;
+  background: #155263;
+  width: 35px;
+  border: 1px solid #155263;
+  border-radius: 50px;
+  justify-content: center;
+}
+
+.App button:hover {
+  cursor: pointer;
+}
+
+.toggleSwitch {
+  position: absolute;
+  margin-top: 65vh;
+  margin-left: 95vw;
+  margin-right: 15px;
+  /* text-align: center; */
+  border: 1px solid #155263;
+  /* background: #155263; */
+  border-radius: 50px;
+}
+
+/* .toggleSwitch ul {
+  
+  padding: 10px;
+} */
+
+.toggleSwitch li {
+  list-style: none;
+}
+
+.toggleSwitch i {
+  display: block;
+  padding: 10px 2px;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.toggleSwitch a:hover {
+  cursor: pointer;
+}
+
+/* .toggleSwitch i { */
+/* color: #085f63; */
+/* justify-content: center; */
+/* } */
+
+#light .light-mode i,
+#dark .dark-mode i {
+  color: #ff9a3c;
+  filter: contrast(90%);
+}
+
+/* #dark .dark-mode i {
+  color: lightgray;
+  filter: contrast(90%);
+} */
+
+/* .App .lightMode .light-mode i:active {
+  color: #ff9a3c;
+  filter: contrast(90%);
+  transform: scale(1.2);
+} */
+
+/* .App .dark-mode i {
+  color: lightgrey;
+} */
+
+.logo-small {
   max-height: 50.5px;
   box-shadow: none;
 }
 
-.App .hero {
+.hero {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -87,11 +176,11 @@ img {
   flex-direction: column;
 }
 
-.App .hero-container {
+.hero-container {
   overflow: hidden;
 }
 
-.App .hero-header h1 {
+.hero-header h1 {
   text-align: center;
   font-family: "Source Code Pro", monospace;
   font-size: 55px;
@@ -99,8 +188,8 @@ img {
   position: relative;
 }
 
-.App .hero-header h1::before,
-.App .hero-header h1::after {
+.hero-header h1::before,
+.hero-header h1::after {
   content: "";
   position: absolute;
   top: 0;
@@ -109,13 +198,13 @@ img {
   left: 0;
 }
 
-.App .hero-header h1::before {
+.hero-header h1::before {
   background: white;
   animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
     forwards;
 }
 
-.App .hero-header h1::after {
+.hero-header h1::after {
   width: 3px;
   background: black;
   animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
@@ -123,7 +212,7 @@ img {
     blink 875ms var(--typewriterCharacters) infinite;
 }
 
-.App .hero-header h2 {
+.hero-header h2 {
   text-align: center;
   font-size: 45px;
   opacity: 0;
@@ -131,16 +220,16 @@ img {
   animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
 
-.App .container-bg {
+.container-bg {
   background: var(--hero-color);
   border-radius: 10px;
 }
 
-.App .container {
+.container {
   padding: 10px;
 }
 
-.App .button-link {
+.button-link {
   border-radius: 5px;
   padding: 16px 31px;
   text-transform: capitalize;
@@ -170,11 +259,11 @@ img {
   }
 }
 @media (max-width: 1400px) {
-  .App .hero-header h1 {
+  .hero-header h1 {
     font-size: 50px;
   }
 
-  .App .hero-header h2 {
+  .hero-header h2 {
     font-size: 40px;
   }
 }
@@ -188,40 +277,52 @@ img {
     width: 100%;
   }
 
-  .App .hero {
+  .downArrow {
+    padding-top: 75vh;
+  }
+
+  .toggleSwitch {
+    margin-right: 20px;
+  }
+
+  .hero {
     padding-left: 0;
     padding-top: 0;
   }
 
-  .App .downArrow {
-    padding-top: 75vh;
-  }
-
-  .App .hero-header h1 {
+  .hero-header h1 {
     font-size: 40px;
   }
 
-  .App .hero-header h2 {
+  .hero-header h2 {
     font-size: 30px;
   }
 }
 
 @media (max-width: 768px) {
-  .App .hero-header h1 {
+  .hero-header h1 {
     font-size: 35px;
   }
 
-  .App .hero-header h2 {
+  .hero-header h2 {
     font-size: 25px;
+  }
+
+  .toggleSwitch {
+    margin-right: 30px;
   }
 }
 
 @media (max-width: 576px) {
-  .App .hero-header h1 {
+  .hero-header h1 {
     font-size: 30px;
   }
 
-  .App .hero-header h2 {
+  .hero-header h2 {
     font-size: 20px;
+  }
+
+  .toggleSwitch {
+    margin-right: 35px;
   }
 }

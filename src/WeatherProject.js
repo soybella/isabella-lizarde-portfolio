@@ -8,7 +8,7 @@ export default function WeatherProject() {
       <div className="container projects-container">
         <div className="row">
           <div className="col-lg-6 d-none d-lg-block project-description">
-            <h3 className="mb-3 text-end">Weather App</h3>
+            <h3 className="p-2 mb-3 text-end">Weather App</h3>
             <p className="p-2 m-0 text-end">
               A React weather app with a search engine that displays live
               weather for the current day, and a five day forecast using API

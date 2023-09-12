@@ -47,6 +47,10 @@
   font-size: 20px;
 }
 
+#dark .skills-container {
+  color: white;
+}
+
 @media (max-width: 1400px) {
   .Skills h2 {
     font-size: 35px;

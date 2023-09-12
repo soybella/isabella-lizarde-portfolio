@@ -6,3 +6,11 @@
   text-decoration: none;
   color: var(--secondary-color);
 }
+
+#dark .Footer p {
+  color: white;
+}
+
+#dark .footer-link {
+  color: var(--primary-color);
+}

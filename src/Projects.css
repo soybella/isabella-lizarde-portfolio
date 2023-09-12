@@ -1,3 +1,6 @@
+.Projects h2 {
+  font-size: 35px;
+}
 .Projects i {
   font-size: 40px;
 }
@@ -29,11 +32,7 @@
   padding-right: 80px;
 }
 
-.Projects .Projects .project-description h3 {
-  font-size: 30px;
-}
-
-.Projects .Projects .project-description {
+.Projects .project-description {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -46,6 +45,15 @@
   align-items: center;
   margin-top: 80px;
   margin-bottom: 90px;
+}
+
+#dark .projects-container {
+  background: #155263;
+  color: white;
+}
+
+#dark .projects-container h3 {
+  font-weight: 700;
 }
 
 @media (max-width: 1400px) {
