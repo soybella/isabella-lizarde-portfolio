@@ -2,9 +2,25 @@
   font-size: 16px;
 }
 
-.footer-link {
+.Footer .footer-link {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--teal-blue-color);
+}
+
+.Footer .to-top-link {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  text-decoration: none;
+  color: var(--dark-blue-color);
+}
+
+.Footer .to-top-link:hover {
+  color: var(--teal-blue-color);
+}
+
+#dark .Footer {
+  background: var(--dark-blue-color);
 }
 
 #dark .Footer p {
@@ -12,5 +28,5 @@
 }
 
 #dark .footer-link {
-  color: var(--primary-color);
+  color: var(--green-blue-color);
 }

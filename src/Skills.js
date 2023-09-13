@@ -4,7 +4,6 @@ import "./Skills.css";
 export default function Skills() {
   return (
     <div className="Skills" id="skills">
-      {/* <div className="text-center container"> */}
       <h2 className="text-center container header">Skills</h2>
       <ul className="skills-container container p-3">
         <li className="skills-icon">

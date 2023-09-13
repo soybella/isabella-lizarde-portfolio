@@ -1,9 +1,11 @@
 .Projects h2 {
   font-size: 35px;
 }
+
 .Projects i {
   font-size: 40px;
 }
+
 .Projects .portfolio-project-image {
   box-shadow: none;
 }
@@ -47,8 +49,10 @@
   margin-bottom: 90px;
 }
 
+#dark .Projects {
+  background: var(--dark-blue-color);
+}
 #dark .projects-container {
-  background: #155263;
   color: white;
 }
 

@@ -16,6 +16,10 @@ export default function Footer() {
           Isabella Lizarde
         </a>
       </p>
+      <a href="#top" className="container text-center to-top-link">
+        {" "}
+        Back to top
+      </a>
     </div>
   );
 }

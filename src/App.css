@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #49beb7;
-  --secondary-color: #085f63;
+  --dark-blue-color: #0e2e3b;
+  --teal-blue-color: #166678;
+  --green-blue-color: #7db9b3;
   --hero-color: #f0f0f0;
-  --backup-color: #ffb5b5;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --header-font: "Quicksand", sans-serif;
   --paragraph-font: "Quicksand", sans-serif;
@@ -14,20 +14,6 @@ body {
   margin: 0 auto;
   scroll-behavior: smooth;
   height: 100vh;
-}
-
-#dark {
-  background-color: #155263;
-}
-
-#dark .toggleSwitch {
-  background-color: white;
-}
-
-#dark .hero-header,
-#dark .downArrow,
-#dark .header {
-  color: white;
 }
 
 h1,
@@ -59,7 +45,6 @@ a {
 }
 
 h3 {
-  /* font-size: 35px; */
   text-align: center;
 }
 
@@ -92,76 +77,37 @@ p {
   text-align: center;
 }
 
-.App .toggleSwitch button {
-  display: flex;
-  border: none;
-  background: #155263;
-  width: 35px;
-  border: 1px solid #155263;
-  border-radius: 50px;
-  justify-content: center;
-}
-
-.App button:hover {
-  cursor: pointer;
-}
-
 .toggleSwitch {
   position: absolute;
-  margin-top: 65vh;
+  margin-top: 75vh;
   margin-left: 95vw;
-  margin-right: 15px;
-  /* text-align: center; */
-  border: 1px solid #155263;
-  /* background: #155263; */
-  border-radius: 50px;
+  margin-right: 55px;
+  margin-bottom: 15px;
 }
 
-/* .toggleSwitch ul {
-  
-  padding: 10px;
-} */
-
-.toggleSwitch li {
-  list-style: none;
+.toggleSwitch:hover {
+  opacity: 0.9;
+  transition: 300ms ease-in;
 }
 
-.toggleSwitch i {
-  display: block;
-  padding: 10px 2px;
+.toggleSwitch i.sun,
+.toggleSwitch i.moon {
+  display: flex;
+  text-align: center;
   justify-content: center;
-  font-size: 30px;
+  align-items: center;
+  line-height: 28px;
+  font-size: 22px;
 }
 
-.toggleSwitch a:hover {
-  cursor: pointer;
+.toggleSwitch i.sun {
+  color: white;
 }
 
-/* .toggleSwitch i { */
-/* color: #085f63; */
-/* justify-content: center; */
-/* } */
-
-#light .light-mode i,
-#dark .dark-mode i {
-  color: #ff9a3c;
-  filter: contrast(90%);
+.toggleSwitch i.moon {
+  color: var(--dark-blue-color);
+  padding-left: 10px;
 }
-
-/* #dark .dark-mode i {
-  color: lightgray;
-  filter: contrast(90%);
-} */
-
-/* .App .lightMode .light-mode i:active {
-  color: #ff9a3c;
-  filter: contrast(90%);
-  transform: scale(1.2);
-} */
-
-/* .App .dark-mode i {
-  color: lightgrey;
-} */
 
 .logo-small {
   max-height: 50.5px;
@@ -234,10 +180,33 @@ p {
   padding: 16px 31px;
   text-transform: capitalize;
   text-decoration: none;
-  background: var(--primary-color);
+  background: var(--teal-blue-color);
   color: white;
   box-shadow: var(--box-shadow);
   font-size: 19px;
+}
+
+.button-link:hover {
+  opacity: 0.9;
+  transition: 300ms ease-in-out;
+}
+
+#dark {
+  background: var(--dark-blue-color);
+}
+
+#dark .hero-header,
+#dark .downArrow,
+#dark .header {
+  color: white;
+}
+
+#dark .hero-header h1::before {
+  background: var(--dark-blue-color);
+}
+
+#dark .react-switch-bg {
+  border: 1px solid white;
 }
 
 @keyframes typewriter {
@@ -258,6 +227,7 @@ p {
     transform: translateY(0);
   }
 }
+
 @media (max-width: 1400px) {
   .hero-header h1 {
     font-size: 50px;
@@ -279,10 +249,6 @@ p {
 
   .downArrow {
     padding-top: 75vh;
-  }
-
-  .toggleSwitch {
-    margin-right: 20px;
   }
 
   .hero {
@@ -307,10 +273,6 @@ p {
   .hero-header h2 {
     font-size: 25px;
   }
-
-  .toggleSwitch {
-    margin-right: 30px;
-  }
 }
 
 @media (max-width: 576px) {
@@ -320,9 +282,5 @@ p {
 
   .hero-header h2 {
     font-size: 20px;
-  }
-
-  .toggleSwitch {
-    margin-right: 35px;
   }
 }

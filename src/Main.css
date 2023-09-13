@@ -1,16 +1,9 @@
-.Main .portfolio-profile-image {
-  box-shadow: none;
-}
-
-.Main .portfolio-profile-image {
-  display: flex;
-  height: auto;
-  max-width: 475px;
-  margin: 0 80px 0 auto;
-}
-
 .Main .portfolio-about-image {
+  display: flex;
+  margin: 0 auto;
   padding: 15px;
+  max-width: 475px;
+  height: auto;
 }
 
 .Main .about-header h2 {
@@ -20,12 +13,12 @@
 
 .Main .header {
   width: fit-content;
-  border-bottom: 3px solid #49beb7;
+  border-bottom: 3px solid var(--green-blue-color);
 }
 
 .Main .about-bio p {
   text-align: start;
-  font-size: 22px;
+  font-size: 21px;
   padding: 15px;
 }
 
@@ -34,7 +27,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 1000px;
+  max-width: 1200px;
 }
 
 .Main .about-container {
@@ -44,6 +37,10 @@
   margin-bottom: 80px;
   padding-right: 35px;
   padding-left: 35px;
+}
+
+#dark .Main {
+  background: var(--dark-blue-color);
 }
 
 #dark .about-me-container {
@@ -56,7 +53,11 @@
   }
 
   .Main .about-bio p {
-    font-size: 19px;
+    font-size: 18px;
+  }
+
+  .Main .portfolio-about-image {
+    max-width: 430px;
   }
 }
 
@@ -67,6 +68,10 @@
 
   .Main .about-bio p {
     font-size: 16.5px;
+  }
+
+  .Main .portfolio-about-image {
+    max-width: 415px;
   }
 }
 

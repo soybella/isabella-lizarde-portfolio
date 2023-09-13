@@ -13,7 +13,7 @@ export default function Main() {
           <div className="col-lg-6 portfolio-about-image d-none d-lg-block">
             <img
               src={profilePhoto}
-              className="img-fluid rounded portfolio-profile-image"
+              className="img-fluid rounded"
               alt="Isabella Lizarde"
             />
           </div>

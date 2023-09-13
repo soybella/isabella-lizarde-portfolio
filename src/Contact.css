@@ -7,17 +7,15 @@
 }
 
 .Contact .contact-info {
-  max-width: 550px;
+  max-width: 50%;
 }
 
-.Contact .contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+.Contact .contact-info p {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .Contact .contact-header {
-  /* color: var(--secondary-color); */
   font-size: 35px;
 }
 
@@ -25,6 +23,7 @@
   display: block;
   margin: 0 auto;
   width: fit-content;
+  padding: 18px 33px;
 }
 
 .Contact .input-details {
@@ -46,19 +45,24 @@
 }
 
 .Contact .icons a {
-  color: var(--secondary-color);
+  color: var(--teal-blue-color);
   text-decoration: none;
 }
 
+.Contact .icons a:hover {
+  opacity: 0.9;
+  transition: 250ms ease-in;
+}
+
 .Contact .icons i {
-  font-size: 25px;
+  font-size: 35px;
+}
+
+#dark .Contact {
+  background: var(--dark-blue-color);
 }
 
 @media (max-width: 1400px) {
-  .Contact .button-link {
-    padding: 12px 24px;
-  }
-
   .Contact h2 {
     font-size: 35px;
   }
@@ -72,8 +76,9 @@
   .Contact h2 {
     font-size: 30px;
   }
+
   .Contact .button-link {
-    padding: 9px 15px;
+    padding: 12px 27px;
   }
 
   .Contact .contact-info p {
@@ -88,5 +93,9 @@
 @media (max-width: 992px) {
   .Contact .contact-info {
     max-width: 650px;
+  }
+
+  .Contact .button-link {
+    padding: 18px 33px;
   }
 }
