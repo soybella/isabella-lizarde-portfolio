@@ -1,5 +1,7 @@
 .Contact {
   padding-top: 80px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .Contact h2 {
@@ -51,7 +53,7 @@
 
 .Contact .icons a:hover {
   opacity: 0.9;
-  transition: 250ms ease-in;
+  transition: var(--transitionOnHover);
 }
 
 .Contact .icons i {
@@ -97,5 +99,9 @@
 
   .Contact .button-link {
     padding: 18px 33px;
+  }
+
+  .Contact .contact-info p {
+    text-align: center;
   }
 }

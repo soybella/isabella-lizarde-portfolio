@@ -18,9 +18,9 @@ export default function DictionaryProject() {
           <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Dictionary App</h3>
             <p className="p-2 m-3 text-center">
-              A simple React dictionary app with a search engine that uses API
-              integration to look up the definition of a word along with a
-              gallery of relative photos.
+              A React dictionary app with a search engine that uses API
+              integration to display the definition of a word with a gallery of
+              photos.
             </p>
             <div className="project-skills-icons pt-2">
               <ul className="d-flex justify-content-center p-0">

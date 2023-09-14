@@ -2,12 +2,12 @@
   --dark-blue-color: #0e2e3b;
   --teal-blue-color: #166678;
   --green-blue-color: #7db9b3;
-  --hero-color: #f0f0f0;
+  --container-color: #f0f0f0;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  --header-font: "Quicksand", sans-serif;
-  --paragraph-font: "Quicksand", sans-serif;
+  --main-font: "Quicksand", sans-serif;
   --typewriterSpeed: 6s;
   --typewriterCharacters: steps(20);
+  --transitionOnHover: 250ms ease-in-out;
 }
 
 body {
@@ -21,7 +21,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: var(--header-font);
+  font-family: var(--main-font);
   opacity: 0.8;
 }
 
@@ -41,7 +41,7 @@ h5 {
 
 p,
 a {
-  font-family: var(--paragraph-font);
+  font-family: var(--main-font);
 }
 
 h3 {
@@ -87,7 +87,7 @@ p {
 
 .toggleSwitch:hover {
   opacity: 0.9;
-  transition: 300ms ease-in;
+  transition: var(--transitionOnHover);
 }
 
 .toggleSwitch i.sun,
@@ -167,7 +167,7 @@ p {
 }
 
 .container-bg {
-  background: var(--hero-color);
+  background: var(--container-color);
   border-radius: 10px;
 }
 
@@ -188,7 +188,7 @@ p {
 
 .button-link:hover {
   opacity: 0.9;
-  transition: 300ms ease-in-out;
+  transition: var(--transitionOnHover);
 }
 
 #dark {

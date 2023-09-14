@@ -13,6 +13,7 @@
   max-width: 100%;
   text-decoration: none;
   color: var(--dark-blue-color);
+  width: fit-content;
 }
 
 .Footer .to-top-link:hover {
@@ -23,8 +24,14 @@
   background: var(--dark-blue-color);
 }
 
-#dark .Footer p {
+#dark .Footer p,
+#dark .Footer .to-top-link {
   color: white;
+}
+
+#dark .Footer .to-top-link:hover {
+  color: var(--green-blue-color);
+  transition: var(--transitionOnHover);
 }
 
 #dark .footer-link {

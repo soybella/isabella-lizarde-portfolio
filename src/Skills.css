@@ -17,7 +17,7 @@
   color: var(--green-blue-color);
   filter: contrast(90%);
   transform: scale(1.2);
-  transition: 250ms ease-in-out;
+  transition: var(--transitionOnHover);
 }
 
 .skills-container {

@@ -4,7 +4,7 @@ import "./Contact.css";
 export default function Contact() {
   return (
     <div className="Contact" id="contact">
-      <div className="container container-bg px-5 py-3">
+      <div className="container contact-container container-bg px-5 py-3">
         <div className="row">
           <h2 className="contact-header text-center border-0 py-3">
             Contact me 💌{" "}
