@@ -1,4 +1,6 @@
 :root {
+  --body-background: white;
+  --font-color: black;
   --dark-blue-color: #0e2e3b;
   --teal-blue-color: #166678;
   --green-blue-color: #7db9b3;
@@ -8,6 +10,25 @@
   --typewriterSpeed: 6s;
   --typewriterCharacters: steps(20);
   --transitionOnHover: 250ms ease-in-out;
+}
+
+[data-theme="light"] {
+  --body-background: white;
+  --font-color: black;
+}
+
+[data-theme="dark"] {
+  --body-background: #0e2e3b;
+  --font-color: white;
+}
+
+.App {
+  background: var(--body-background);
+  color: var(--font-color);
+}
+
+* {
+  transition: all 200ms ease-in-out;
 }
 
 body {
@@ -145,7 +166,7 @@ p {
 }
 
 .hero-header h1::before {
-  background: white;
+  background: var(--body-background);
   animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
     forwards;
 }
@@ -191,22 +212,22 @@ p {
   transition: var(--transitionOnHover);
 }
 
-#dark {
+/* #dark {
   background: var(--dark-blue-color);
+} */
+
+.hero-header,
+.downArrow,
+.header {
+  color: var(--font-color);
 }
 
-#dark .hero-header,
-#dark .downArrow,
-#dark .header {
-  color: white;
-}
+/* .hero-header h1::before {
+  background: var(--background-color);
+} */
 
-#dark .hero-header h1::before {
-  background: var(--dark-blue-color);
-}
-
-#dark .react-switch-bg {
-  border: 1px solid white;
+.react-switch-bg {
+  border: 1px solid var(--font-color);
 }
 
 @keyframes typewriter {

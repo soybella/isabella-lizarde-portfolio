@@ -52,6 +52,7 @@
 #dark .Projects {
   background: var(--dark-blue-color);
 }
+
 #dark .projects-container {
   color: white;
 }
