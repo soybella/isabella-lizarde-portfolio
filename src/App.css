@@ -211,20 +211,11 @@ p {
   opacity: 0.9;
   transition: var(--transitionOnHover);
 }
-
-/* #dark {
-  background: var(--dark-blue-color);
-} */
-
 .hero-header,
 .downArrow,
 .header {
   color: var(--font-color);
 }
-
-/* .hero-header h1::before {
-  background: var(--background-color);
-} */
 
 .react-switch-bg {
   border: 1px solid var(--font-color);

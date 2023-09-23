@@ -39,14 +39,6 @@
   padding-left: 35px;
 }
 
-#dark .Main {
-  background: var(--dark-blue-color);
-}
-
-#dark .about-me-container {
-  color: white;
-}
-
 @media (max-width: 1400px) {
   .Main .about-header h2 {
     font-size: 32px;

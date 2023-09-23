@@ -19,21 +19,3 @@
 .Footer .to-top-link:hover {
   color: var(--teal-blue-color);
 }
-
-#dark .Footer {
-  background: var(--dark-blue-color);
-}
-
-#dark .Footer p,
-#dark .Footer .to-top-link {
-  color: white;
-}
-
-#dark .Footer .to-top-link:hover {
-  color: var(--green-blue-color);
-  transition: var(--transitionOnHover);
-}
-
-#dark .footer-link {
-  color: var(--green-blue-color);
-}

@@ -61,10 +61,6 @@
   font-size: 35px;
 }
 
-#dark .Contact {
-  background: var(--dark-blue-color);
-}
-
 @media (max-width: 1400px) {
   .Contact h2 {
     font-size: 35px;

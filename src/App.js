@@ -5,11 +5,8 @@ import Footer from "./Footer.js";
 import ReactSwitch from "react-switch";
 import "./App.css";
 
-// export const ThemeContext = createContext(null);
-
 function App() {
-  // const myRef = useRef(null);
-  const [isChecked, setIsChecked] = useState();
+  const [isChecked, setIsChecked] = useState(true);
 
   const setDarkTheme = () => {
     document.querySelector("body").setAttribute("data-theme", "dark");
@@ -25,42 +22,22 @@ function App() {
 
   if (selectedTheme === "dark") {
     setDarkTheme();
-    // setIsChecked(false);
   }
-
-  // const toggleTheme = (current) => {
-  //   console.log(current);
-  //   if (current === false) {
-  //     setDarkTheme();
-  //     // setIsChecked(false);
-  //   } else {
-  //     setLightTheme();
-  //   }
-  //   setIsChecked((current) => !current);
-  // };
 
   const toggleTheme = (event) => {
     console.log(event);
     if (event === true) {
       setLightTheme();
-      // isChecked();
-      // setIsChecked(true);
     } else {
       setDarkTheme();
-      // isChecked();
-      // setIsChecked(false);
     }
     setIsChecked((current) => !current);
   };
-
-  // Try setting sunIcon toggle to light theme and moon to dark theme ?
 
   const sunIcon = <i className="fa-regular fa-sun sun"></i>;
   const moonIcon = <i className="fa-regular fa-moon moon"></i>;
 
   return (
-    // <ThemeContext.Provider value={{ theme, toggleTheme }}>
-    // <div className="App" id={theme}>
     <div className="App" id="homepage">
       <div className="hero-container" id="top">
         <NavBar />
@@ -74,14 +51,10 @@ function App() {
           </p>
           <div className="toggleSwitch">
             <ReactSwitch
-              // ref={myRef}
               onChange={toggleTheme}
-              // value={isChecked}
-              // onChange={(e) => setIsChecked(e.target.checked)}
-              // defaultChecked={selectedTheme === "dark"}
+              value={isChecked}
               type="checkbox"
               inputMode="checkbox"
-              // onLoad={handleLoad}
               checked={selectedTheme === "light"}
               checkedIcon={sunIcon}
               uncheckedIcon={moonIcon}
@@ -96,7 +69,6 @@ function App() {
       <Main />
       <Footer />
     </div>
-    // </ThemeContext.Provider>
   );
 }
 

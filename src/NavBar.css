@@ -27,22 +27,6 @@
   color: var(--green-blue-color);
 }
 
-#dark .NavBar .navbar {
-  background: var(--dark-blue-color);
-}
-
-#dark .nav-item a {
-  color: white;
-}
-
-#dark .nav-item .active {
-  color: var(--green-blue-color);
-}
-
-#dark .NavBar button {
-  background: white;
-}
-
 @media (max-width: 992px) {
   .NavBar .fixed-top {
     position: static;
