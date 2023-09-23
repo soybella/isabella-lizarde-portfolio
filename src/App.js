@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   // const myRef = useRef(null);
-  const [isChecked, setIsChecked] = useState(true);
+  const [isChecked, setIsChecked] = useState();
 
   const setDarkTheme = () => {
     document.querySelector("body").setAttribute("data-theme", "dark");
@@ -25,15 +25,30 @@ function App() {
 
   if (selectedTheme === "dark") {
     setDarkTheme();
+    // setIsChecked(false);
   }
 
-  const toggleTheme = (current) => {
-    console.log(current);
-    if (current === false) {
-      setDarkTheme();
-      // setIsChecked(false);
-    } else {
+  // const toggleTheme = (current) => {
+  //   console.log(current);
+  //   if (current === false) {
+  //     setDarkTheme();
+  //     // setIsChecked(false);
+  //   } else {
+  //     setLightTheme();
+  //   }
+  //   setIsChecked((current) => !current);
+  // };
+
+  const toggleTheme = (event) => {
+    console.log(event);
+    if (event === true) {
       setLightTheme();
+      // isChecked();
+      // setIsChecked(true);
+    } else {
+      setDarkTheme();
+      // isChecked();
+      // setIsChecked(false);
     }
     setIsChecked((current) => !current);
   };
@@ -61,10 +76,13 @@ function App() {
             <ReactSwitch
               // ref={myRef}
               onChange={toggleTheme}
+              // value={isChecked}
+              // onChange={(e) => setIsChecked(e.target.checked)}
               // defaultChecked={selectedTheme === "dark"}
               type="checkbox"
               inputMode="checkbox"
-              checked={isChecked}
+              // onLoad={handleLoad}
+              checked={selectedTheme === "light"}
               checkedIcon={sunIcon}
               uncheckedIcon={moonIcon}
               onColor="#166678"
