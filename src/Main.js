@@ -28,10 +28,10 @@ export default function Main() {
               </p>
               <p>
                 I've always had a passion for creating beautiful works of art
-                and bringing things to life visually. As a former art major, I
-                believe that Front-end development is a perfect combination of
-                art and logic, and I truly enjoy creating engaging, user
-                friendly websites. <br />
+                and bringing ideas to life. As a former art major, I believe
+                that Front-end development is a perfect combination of art and
+                logic, and I truly enjoy creating engaging, user friendly
+                websites. <br />
               </p>
               <p>
                 When I'm not coding, I like to spend my free time walking my
