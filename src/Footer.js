@@ -7,7 +7,7 @@ export default function Footer() {
       <p className="container text-center mt-3">
         Coded with 🖤 by{" "}
         <a
-          href="https://github.com/soybella/SheCodes-Portfolio-Project"
+          href="https://github.com/soybella/isabella-lizarde-portfolio"
           target="_blank"
           rel="noreferrer"
           className="footer-link"
