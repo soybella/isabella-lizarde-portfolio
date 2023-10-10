@@ -27,6 +27,7 @@
   margin: 0 auto;
   width: fit-content;
   padding: 18px 33px;
+  color: white;
 }
 
 .Contact .input-details {
@@ -49,6 +50,10 @@
 
 .Contact .icons a {
   color: var(--teal-blue-color);
+}
+
+.Contact a {
+  color: var(--green-blue-color);
   text-decoration: none;
 }
 

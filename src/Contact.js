@@ -2,6 +2,9 @@ import React from "react";
 import "./Contact.css";
 
 export default function Contact() {
+  const resumeLink =
+    "https://drive.google.com/file/d/1BusgZZ6Ab3pYJArAg2_LiIjW96QXPADD/view?usp=drive_link";
+
   return (
     <div className="Contact" id="contact">
       <div className="container contact-container container-bg px-5 py-3">
@@ -29,7 +32,12 @@ export default function Contact() {
                   If you have any questions about my work or want to grab a
                   coffee and chat about anything true crime or paranormal - go
                   ahead and send me a message on here or on any of my socials,
-                  thanks for stopping by!
+                  thanks for stopping by. <br /> <br /> Download my Resume{" "}
+                  <a href={resumeLink} target="_blank" rel="noreferrer">
+                    {" "}
+                    here
+                  </a>
+                  !
                 </p>
                 <div class="social-media">
                   <ul class="icons pt-3">
