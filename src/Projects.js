@@ -3,6 +3,7 @@ import DictionaryProject from "./DictionaryProject";
 import WeatherProject from "./WeatherProject";
 import TravelProject from "./TravelProject";
 import WorldClockProject from "./WorldClockProject";
+import CurrentProjects from "./CurrentProjects";
 import "./Projects.css";
 
 export default function Projects() {
@@ -13,6 +14,7 @@ export default function Projects() {
       <WeatherProject />
       <TravelProject />
       <WorldClockProject />
+      <CurrentProjects />
     </div>
   );
 }
