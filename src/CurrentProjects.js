@@ -1,10 +1,11 @@
 import React from "react";
 import bobaDateProject from "./images/boba-date-project.png";
-import "./CurrentProjects.css";
+import "./Projects.css";
 
 export default function CurrentProjects() {
   return (
     <div className="CurrentProjects">
+      <h2 className="header container text-center">Current Projects</h2>
       <div className="container projects-container">
         <div className="row">
           <div className="col-md-6 portfolio-project-image d-md-block">
@@ -17,9 +18,9 @@ export default function CurrentProjects() {
           <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Boba Date</h3>
             <p className="p-2 m-3 text-center">
-              A simple decision making website that uses vanilla HTML, advanced
-              CS techniques, and Javascript to find your next go-to bubble tea
-              order.
+              A simple decision making website that uses vanilla HTML,
+              Javascript, and advanced CSS techniques to find your next go-to
+              bubble tea order.
             </p>
             <div className="project-skills-icons pt-2">
               <ul className="d-flex p-0 justify-content-center">
@@ -67,9 +68,9 @@ export default function CurrentProjects() {
           <div className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="p-2 mb-3 text-start">Boba Date</h3>
             <p className="p-2 m-0 text-start">
-              A simple decision making website that uses vanilla HTML, advanced
-              CS techniques, and Javascript to find your next go-to bubble tea
-              order.
+              A simple decision making website that uses vanilla HTML,
+              Javascript, and advanced CSS techniques to find your next go-to
+              bubble tea order.
             </p>
             <div className="project-skills-icons pt-4">
               <ul className="d-flex p-0 justify-content-start">

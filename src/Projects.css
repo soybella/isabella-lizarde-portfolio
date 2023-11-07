@@ -24,7 +24,8 @@
 }
 
 .Projects .TravelProject .project-description,
-.Projects .DictionaryProject .project-description {
+.Projects .DictionaryProject .project-description,
+.Projects .CurrentProjects .project-description {
   padding-left: 80px;
   padding-right: 0;
 }
