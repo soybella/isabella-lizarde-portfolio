@@ -133,7 +133,8 @@
   .Projects .DictionaryProject .project-description,
   .Projects .WeatherProject .project-description,
   .Projects .TravelProject .project-description,
-  .Projects .WorldClockProject .project-description {
+  .Projects .WorldClockProject .project-description,
+  .Projects .CurrentProjects .project-description {
     padding: 0;
   }
 
