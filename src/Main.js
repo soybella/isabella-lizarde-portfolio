@@ -2,7 +2,7 @@ import React from "react";
 import Skills from "./Skills.js";
 import Projects from "./Projects.js";
 import Contact from "./Contact.js";
-import profilePhoto from "./images/temp-profile-image.JPG";
+import profilePhoto from "./images/temp-profile-image.jpg";
 import "./Main.css";
 
 export default function Main() {
