@@ -25,13 +25,14 @@
 
 .Projects .TravelProject .project-description,
 .Projects .DictionaryProject .project-description,
-.Projects .CurrentProjects .project-description {
+.Projects .TodoListProject .project-description {
   padding-left: 80px;
   padding-right: 0;
 }
 
 .Projects .WorldClockProject .project-description,
-.Projects .WeatherProject .project-description {
+.Projects .WeatherProject .project-description,
+.Projects .BobaDateProject .project-description {
   padding-right: 80px;
 }
 
