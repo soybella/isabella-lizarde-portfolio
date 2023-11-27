@@ -17,9 +17,8 @@ export default function TodoListProject() {
           <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Todo List</h3>
             <p className="p-2 m-3 text-center">
-              A simple decision making website that uses vanilla HTML,
-              Javascript, and advanced CSS techniques to find your next go-to
-              bubble tea order.
+              A React to-do list that helps you organize your daily tasks and
+              complete projects on time.
             </p>
             <div className="project-skills-icons pt-2">
               <ul className="d-flex p-0 justify-content-center">
@@ -73,9 +72,8 @@ export default function TodoListProject() {
           <div className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="p-2 mb-3 text-start">Todo List</h3>
             <p className="p-2 m-0 text-start">
-              A simple decision making website that uses vanilla HTML,
-              Javascript, and advanced CSS techniques to find your next go-to
-              bubble tea order.
+              A React to-do list that helps you organize your daily tasks and
+              complete projects on time.
             </p>
             <div className="project-skills-icons pt-4">
               <ul className="d-flex p-0 justify-content-start">
