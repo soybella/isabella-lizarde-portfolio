@@ -12,7 +12,7 @@ export default function Contact() {
           <h2 className="contact-header text-center border-0 py-3">
             Contact me 💌{" "}
           </h2>
-          <form>
+          <form id="contact-form">
             <div className="row">
               <div className="container col-sm input-details">
                 <input type="text" placeholder="name"></input>

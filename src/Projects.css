@@ -31,8 +31,7 @@
 }
 
 .Projects .WorldClockProject .project-description,
-.Projects .WeatherProject .project-description,
-.Projects .BobaDateProject .project-description {
+.Projects .WeatherProject .project-description {
   padding-right: 80px;
 }
 
