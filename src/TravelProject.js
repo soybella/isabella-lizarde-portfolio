@@ -17,8 +17,12 @@ export default function TravelProject() {
           <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Travel Site</h3>
             <p className="p-2 m-3 text-center">
-              A travel site that uses vanilla HTML and advanced CSS techniques
-              such as Flexbox to create a sophisticated responsive design.
+              A React advice generator app that uses API integration to display
+              random advice quotes. Challenge from{" "}
+              <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">
+                Frontend Mentor
+              </a>
+              .
             </p>
             <div className="project-skills-icons pt-2">
               <ul className="d-flex p-0 justify-content-center">
@@ -66,8 +70,12 @@ export default function TravelProject() {
           <div className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="p-2 mb-3 text-start">Travel Site</h3>
             <p className="p-2 m-0 text-start">
-              A travel site that uses vanilla HTML and advanced CSS techniques
-              such as Flexbox to create a sophisticated responsive design.
+              A React advice generator app that uses API integration to display
+              random advice quotes. Challenge from{" "}
+              <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">
+                Frontend Mentor
+              </a>
+              .
             </p>
             <div className="project-skills-icons pt-4">
               <ul className="d-flex p-0 justify-content-start">
