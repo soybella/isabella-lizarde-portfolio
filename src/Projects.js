@@ -1,7 +1,7 @@
 import React from "react";
 import DictionaryProject from "./DictionaryProject";
 import WeatherProject from "./WeatherProject";
-import TravelProject from "./TravelProject";
+import AdviceGeneratorProject from "./AdviceGeneratorProject";
 import WorldClockProject from "./WorldClockProject";
 import CurrentProjects from "./CurrentProjects";
 import "./Projects.css";
@@ -12,7 +12,7 @@ export default function Projects() {
       <h2 className="header container text-center">Projects</h2>
       <DictionaryProject />
       <WeatherProject />
-      <TravelProject />
+      <AdviceGeneratorProject />
       <WorldClockProject />
       <CurrentProjects />
     </div>

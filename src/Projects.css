@@ -6,6 +6,11 @@
   font-size: 40px;
 }
 
+.Projects .challenge-link {
+  text-decoration: none;
+  color: var(--green-blue-color);
+}
+
 .Projects .portfolio-project-image {
   box-shadow: none;
 }
@@ -25,7 +30,8 @@
 
 .Projects .TravelProject .project-description,
 .Projects .DictionaryProject .project-description,
-.Projects .TodoListProject .project-description {
+.Projects .TodoListProject .project-description,
+.Projects .AdviceGeneratorProject .project-description {
   padding-left: 80px;
   padding-right: 0;
 }
