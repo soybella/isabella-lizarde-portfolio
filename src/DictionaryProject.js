@@ -14,7 +14,6 @@ export default function DictionaryProject() {
               alt="#"
             />
           </div>
-          {/* <ResponsiveDictionaryProject /> */}
           <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Dictionary App</h3>
             <p className="p-2 m-3 text-center">
