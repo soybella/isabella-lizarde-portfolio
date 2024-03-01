@@ -18,7 +18,7 @@ export default function AdviceGeneratorProject() {
             <h3 className="mt-3">Advice Generator</h3>
             <p className="p-2 m-3 text-center">
               A React advice generator app that uses API integration to display
-              random advice quotes. Challenge from{" "}
+              random advice quotes. Challenge is from{" "}
               <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">
                 Frontend Mentor
               </a>
@@ -77,7 +77,7 @@ export default function AdviceGeneratorProject() {
             <h3 className="p-2 mb-3 text-start">Advice Generator</h3>
             <p className="p-2 m-0 text-start">
               A React advice generator app that uses API integration to display
-              random advice quotes. Challenge from{" "}
+              random advice quotes. Challenge is from{" "}
               <a
                 href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
                 className="challenge-link"
