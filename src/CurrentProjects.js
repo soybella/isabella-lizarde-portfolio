@@ -1,11 +1,12 @@
 import React from "react";
-import TodoListProject from "./TodoListProject";
+import TicTacToeProject from "./TicTacToeProject";
 import "./Projects.css";
 
 export default function CurrentProjects() {
   return (
     <div className="CurrentProjects">
-      <TodoListProject />
+      <h2 className="header container text-center">Current Projects</h2>
+      <TicTacToeProject />
     </div>
   );
 }

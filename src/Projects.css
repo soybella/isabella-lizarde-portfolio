@@ -37,7 +37,8 @@
 }
 
 .Projects .WorldClockProject .project-description,
-.Projects .WeatherProject .project-description {
+.Projects .WeatherProject .project-description,
+.Projects .TicTacToeProject .project-description {
   padding-right: 80px;
 }
 
@@ -140,7 +141,10 @@
   .Projects .WeatherProject .project-description,
   .Projects .TravelProject .project-description,
   .Projects .WorldClockProject .project-description,
-  .Projects .CurrentProjects .project-description {
+  .Projects .CurrentProjects .project-description,
+  .Projects .AdviceGeneratorProject .project-description,
+  .Projects .TodoListProject .project-description,
+  .Projects .TodoListProject .project-description {
     padding: 0;
   }
 

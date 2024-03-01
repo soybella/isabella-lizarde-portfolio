@@ -4,7 +4,6 @@ import todoListProject from "./images/todo-list-project.png";
 export default function TodoListProject() {
   return (
     <div className="TodoListProject">
-      <h2 className="header container text-center">Current Projects</h2>
       <div className="container projects-container">
         <div className="row">
           <div className="col-md-6 portfolio-project-image d-md-block">
