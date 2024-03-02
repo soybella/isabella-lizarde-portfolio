@@ -6,7 +6,8 @@
   font-size: 40px;
 }
 
-.Projects .challenge-link {
+.Projects .challenge-link,
+.challenge-link:visited {
   text-decoration: none;
   color: var(--green-blue-color);
 }
@@ -96,6 +97,7 @@
   .Projects i {
     font-size: 30px;
   }
+
   .Projects .project-description h3 {
     font-size: 20px;
     margin: 0;

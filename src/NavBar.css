@@ -8,6 +8,10 @@
   margin-right: 48px;
 }
 
+.NavBar .navbar-toggler {
+  background: white;
+}
+
 .NavBar .navbar-list {
   justify-content: right;
 }

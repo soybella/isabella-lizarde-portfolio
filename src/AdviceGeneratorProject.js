@@ -19,7 +19,12 @@ export default function AdviceGeneratorProject() {
             <p className="p-2 m-3 text-center">
               A React advice generator app that uses API integration to display
               random advice quotes. Challenge is from{" "}
-              <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">
+              <a
+                href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
+                className="challenge-link"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Frontend Mentor
               </a>
               .

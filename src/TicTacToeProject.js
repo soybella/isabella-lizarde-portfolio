@@ -11,11 +11,16 @@ export default function TicTacToeProject() {
             <div className="col-lg-6 d-none d-lg-block project-description">
               <h3 className="p-2 mb-3 text-end">Tic Tac Toe Project</h3>
               <p className="p-2 m-0 text-end">
-                A Tic Tac Toe game in which you play against the computer.
-                Vanilla JavaScript, HTML, and CSS, are used to build this
-                project to help deepen understanding of core foundations.
-                Challenge from{" "}
-                <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">
+                A Tic Tac Toe game in which you play against a computer player.
+                This project is built using Vanilla JavaScript, HTML, and CSS to
+                help deepen understanding of the core foundations. Challenge is
+                from{" "}
+                <a
+                  href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
+                  className="challenge-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Frontend Mentor
                 </a>
                 .
@@ -72,8 +77,13 @@ export default function TicTacToeProject() {
                 A Tic Tac Toe game in which you play against the computer.
                 Vanilla JavaScript, HTML, and CSS, are used to build this
                 project to help deepen understanding of core foundations.
-                Challenge from{" "}
-                <a href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db">
+                Challenge is from{" "}
+                <a
+                  href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
+                  className="challenge-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Frontend Mentor
                 </a>
                 .
