@@ -9,7 +9,7 @@ import "./Projects.css";
 
 export default function Projects() {
   return (
-    <div className="Projects" id="projects">
+    <section className="Projects" id="projects">
       <h2 className="header container text-center">Projects</h2>
       <DictionaryProject />
       <WeatherProject />
@@ -17,6 +17,6 @@ export default function Projects() {
       <WorldClockProject />
       <TodoListProject />
       <CurrentProjects />
-    </div>
+    </section>
   );
 }

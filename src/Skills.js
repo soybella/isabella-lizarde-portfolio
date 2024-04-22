@@ -3,7 +3,7 @@ import "./Skills.css";
 
 export default function Skills() {
   return (
-    <div className="Skills" id="skills">
+    <article className="Skills" id="skills">
       <h2 className="text-center container header">Skills</h2>
       <ul className="skills-container container p-3">
         <li className="skills-icon">
@@ -47,7 +47,6 @@ export default function Skills() {
           <h4>Responsive Design</h4>
         </li>
       </ul>
-    </div>
-    // </div>
+    </article>
   );
 }
