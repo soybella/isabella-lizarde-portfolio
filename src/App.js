@@ -42,10 +42,10 @@ function App() {
       <div className="hero-container" id="top">
         <NavBar />
         <div className="hero">
-          <div className="hero-header">
+          <hgroup className="hero-header">
             <h1>Hello, I'm Isabella.</h1>
             <h2 className="py-2">Front-end developer </h2>
-          </div>
+          </hgroup>
           <p className="downArrow">
             <i className="fa-solid fa-chevron-down fa-bounce"></i>
           </p>

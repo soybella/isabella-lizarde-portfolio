@@ -4,7 +4,7 @@ import "./NavBar.css";
 
 export default function NavBar() {
   return (
-    <div className="NavBar">
+    <header className="NavBar">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid navbar-length p-0">
           <a
@@ -83,6 +83,6 @@ export default function NavBar() {
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }

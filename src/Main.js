@@ -7,8 +7,8 @@ import "./Main.css";
 
 export default function Main() {
   return (
-    <div className="Main" id="about">
-      <div className="about-container">
+    <main className="Main" id="about">
+      <article className="about-container">
         <div className="row">
           <div className="col-lg-6 portfolio-about-image d-none d-lg-block">
             <img
@@ -17,7 +17,7 @@ export default function Main() {
               alt="Isabella Lizarde"
             />
           </div>
-          <div className="col-lg-6 about-me-container container">
+          <section className="col-lg-6 about-me-container container">
             <div className="about-header">
               <h2 className="header">About Me</h2>
             </div>
@@ -41,12 +41,12 @@ export default function Main() {
                 Feel free to send me a message below if you have any questions!
               </p>
             </div>
-          </div>
+          </section>
         </div>
-      </div>
+      </article>
       <Skills />
       <Projects />
       <Contact />
-    </div>
+    </main>
   );
 }
