@@ -85,6 +85,9 @@ export default function LandingPageProject() {
                 <li className="skills-icon p-2">
                   <i className="fa-brands fa-square-js"></i>
                 </li>
+                <li className="skills-icon p-2">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                </li>
               </ul>
               <ul className="d-flex justify-content-center responsive-project-button project-button pt-3">
                 <li className="project-button">
