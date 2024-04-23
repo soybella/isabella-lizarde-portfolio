@@ -3,7 +3,7 @@ import "./Footer.css";
 
 export default function Footer() {
   return (
-    <div className="Footer" id="#footer">
+    <footer className="Footer" id="#footer">
       <p className="container text-center mt-3">
         Coded with ♥ by{" "}
         <a
@@ -21,6 +21,6 @@ export default function Footer() {
         {" "}
         Back to top
       </a>
-    </div>
+    </footer>
   );
 }

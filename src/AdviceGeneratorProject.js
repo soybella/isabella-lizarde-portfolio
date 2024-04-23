@@ -4,8 +4,8 @@ import "./Projects.css";
 
 export default function AdviceGeneratorProject() {
   return (
-    <div className="AdviceGeneratorProject">
-      <div className="container projects-container">
+    <article className="AdviceGeneratorProject">
+      <section className="container projects-container">
         <div className="row">
           <div className="col-md-6 portfolio-project-image d-md-block">
             <img
@@ -14,7 +14,7 @@ export default function AdviceGeneratorProject() {
               alt="#"
             />
           </div>
-          <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
+          <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Advice Generator</h3>
             <p className="p-2 m-3 text-center">
               A React advice generator app that uses API integration to display
@@ -77,8 +77,8 @@ export default function AdviceGeneratorProject() {
                 </li>
               </ul>
             </div>
-          </div>
-          <div className="col-lg-6 d-none d-lg-block project-description">
+          </article>
+          <article className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="p-2 mb-3 text-start">Advice Generator</h3>
             <p className="p-2 m-0 text-start">
               A React advice generator app that uses API integration to display
@@ -140,9 +140,9 @@ export default function AdviceGeneratorProject() {
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }

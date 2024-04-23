@@ -6,8 +6,8 @@ export default function Contact() {
     "https://drive.google.com/file/d/1BusgZZ6Ab3pYJArAg2_LiIjW96QXPADD/view?usp=drive_link";
 
   return (
-    <div className="Contact" id="contact">
-      <div className="container contact-container container-bg px-5 py-3">
+    <article className="Contact" id="contact">
+      <section className="container contact-container container-bg px-5 py-3">
         <div className="row">
           <h2 className="contact-header text-center border-0 py-3">
             Contact me 💌{" "}
@@ -67,7 +67,7 @@ export default function Contact() {
             </div>
           </form>
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }

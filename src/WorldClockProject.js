@@ -4,10 +4,10 @@ import "./Projects.css";
 
 export default function WorldClockProject() {
   return (
-    <div className="WorldClockProject">
-      <div className="container projects-container">
+    <article className="WorldClockProject">
+      <section className="container projects-container">
         <div className="row">
-          <div className="col-lg-6 d-none d-lg-block project-description">
+          <article className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="p-2 mb-3 text-end">World Clock</h3>
             <p className="p-2 m-0 text-end">
               A web app that uses advanced elements of JavaScript to display a
@@ -51,7 +51,7 @@ export default function WorldClockProject() {
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
           <div className="col-md-6 portfolio-project-image d-md-block">
             <img
               src={worldClockProject}
@@ -59,7 +59,7 @@ export default function WorldClockProject() {
               alt="#"
             />
           </div>
-          <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
+          <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">World Clock</h3>
             <p className="p-2 m-3 text-center">
               A web app that uses advanced elements of JavaScript to create
@@ -102,9 +102,9 @@ export default function WorldClockProject() {
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }

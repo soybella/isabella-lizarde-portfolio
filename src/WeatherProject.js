@@ -4,10 +4,10 @@ import "./Projects.css";
 
 export default function WeatherProject() {
   return (
-    <div className="WeatherProject">
-      <div className="container projects-container">
+    <article className="WeatherProject">
+      <section className="container projects-container">
         <div className="row">
-          <div className="col-lg-6 d-none d-lg-block project-description">
+          <article className="col-lg-6 d-none d-lg-block project-description">
             <h3 className="p-2 mb-3 text-end">Weather App</h3>
             <p className="p-2 m-0 text-end">
               A React weather app with a search engine that displays live
@@ -61,7 +61,7 @@ export default function WeatherProject() {
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
           <div className="col-md-6 portfolio-project-image d-md-block">
             <img
               src={weatherProject}
@@ -69,7 +69,7 @@ export default function WeatherProject() {
               alt="#"
             />
           </div>
-          <div className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
+          <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Weather App</h3>
             <p className="p-2 m-3 text-center">
               A React weather app with a search engine that displays live
@@ -122,9 +122,9 @@ export default function WeatherProject() {
                 </li>
               </ul>
             </div>
-          </div>
+          </article>
         </div>
-      </div>
-    </div>
+      </section>
+    </article>
   );
 }
