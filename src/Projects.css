@@ -31,13 +31,12 @@
 
 .Projects .TravelProject .project-description,
 .Projects .DictionaryProject .project-description,
-.Projects .TodoListProject .project-description,
 .Projects .AdviceGeneratorProject .project-description {
   padding-left: 80px;
   padding-right: 0;
 }
 
-.Projects .WorldClockProject .project-description,
+.Projects .LandingPageProject .project-description,
 .Projects .WeatherProject .project-description,
 .Projects .TicTacToeProject .project-description {
   padding-right: 80px;
@@ -141,12 +140,9 @@
 
   .Projects .DictionaryProject .project-description,
   .Projects .WeatherProject .project-description,
-  .Projects .TravelProject .project-description,
-  .Projects .WorldClockProject .project-description,
   .Projects .CurrentProjects .project-description,
   .Projects .AdviceGeneratorProject .project-description,
-  .Projects .TodoListProject .project-description,
-  .Projects .TodoListProject .project-description {
+  .Projects .LandingPageProject .project-description {
     padding: 0;
   }
 

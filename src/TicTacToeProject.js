@@ -8,7 +8,7 @@ export default function TicTacToeProject() {
       <section className="container projects-container">
         <div className="row">
           <article className="col-lg-6 d-none d-lg-block project-description">
-            <h3 className="p-2 mb-3 text-end">Tic Tac Toe Project</h3>
+            <h3 className="p-2 mb-3 text-end">Tic Tac Toe</h3>
             <p className="p-2 m-0 text-end">
               A Tic Tac Toe game in which you play against a computer player.
               This project is built using Vanilla JavaScript, HTML, and CSS to
@@ -35,6 +35,9 @@ export default function TicTacToeProject() {
                 </li>
                 <li className="skills-icon p-2">
                   <i className="fa-brands fa-square-js"></i>
+                </li>
+                <li className="skills-icon p-2">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
                 </li>
               </ul>
               <ul className="d-flex justify-content-end project-button">
@@ -71,7 +74,7 @@ export default function TicTacToeProject() {
             />
           </div>
           <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
-            <h3 className="mt-3">Tic Tac Toe Project </h3>
+            <h3 className="mt-3">Tic Tac Toe</h3>
             <p className="p-2 m-3 text-center">
               A Tic Tac Toe game in which you play against the computer. Vanilla
               JavaScript, HTML, and CSS, are used to build this project to help
@@ -96,6 +99,9 @@ export default function TicTacToeProject() {
                 </li>
                 <li className="skills-icon p-2">
                   <i className="fa-brands fa-square-js"></i>
+                </li>
+                <li className="skills-icon p-2">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
                 </li>
               </ul>
               <ul className="d-flex justify-content-center responsive-project-button project-button pt-3">

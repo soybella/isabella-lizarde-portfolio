@@ -2,8 +2,7 @@ import React from "react";
 import DictionaryProject from "./DictionaryProject";
 import WeatherProject from "./WeatherProject";
 import AdviceGeneratorProject from "./AdviceGeneratorProject";
-import WorldClockProject from "./WorldClockProject";
-import TodoListProject from "./TodoListProject";
+import LandingPageProject from "./LandingPageProject";
 import CurrentProjects from "./CurrentProjects";
 import "./Projects.css";
 
@@ -14,8 +13,7 @@ export default function Projects() {
       <DictionaryProject />
       <WeatherProject />
       <AdviceGeneratorProject />
-      <WorldClockProject />
-      <TodoListProject />
+      <LandingPageProject />
       <CurrentProjects />
     </section>
   );
