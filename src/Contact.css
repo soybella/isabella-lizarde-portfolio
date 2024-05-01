@@ -39,8 +39,8 @@
 .Contact .social-media ul {
   display: block;
   list-style-type: none;
-  text-align: center;
-  padding-left: 0;
+  /* text-align: center; */
+  padding-left: 0.8rem;
 }
 
 .Contact .icons li {
