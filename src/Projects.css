@@ -1,9 +1,15 @@
 .Projects h2 {
-  font-size: 35px;
+  font-size: clamp(1.5rem, 1rem + 2.5vw, 2.2rem);
 }
 
 .Projects i {
-  font-size: 40px;
+  font-size: clamp(1.5rem, 1rem + 1.5vw, 2.5rem);
+  padding: 0.2em;
+  border: 1px solid white;
+}
+
+.Projects .project-skills-icons {
+  border: 1px solid white;
 }
 
 .Projects .challenge-link,
@@ -13,98 +19,66 @@
 }
 
 .Projects .portfolio-project-image {
+  display: flex;
+  max-inline-size: 100%;
   box-shadow: none;
-}
-
-.Projects .project-description p {
-  font-size: 22px;
 }
 
 .Projects .project-button {
   list-style: none;
-  padding-top: 10px;
+  padding-block-start: 0.7em;
 }
 
 .Projects .project-button .button-link {
-  padding: 20px 35px;
+  padding: 1.3em 2.2em;
+}
+
+.Projects .project-description {
+  border: 1px solid white;
 }
 
 .Projects .TravelProject .project-description,
 .Projects .DictionaryProject .project-description,
-.Projects .AdviceGeneratorProject .project-description {
-  padding-left: 80px;
-  padding-right: 0;
+.Projects .AdviceGeneratorProject .project-description,
+.Projects .TicTacToeProject .project-description {
+  padding-inline-start: 5em;
+  padding-inline-end: 2em;
 }
 
 .Projects .LandingPageProject .project-description,
-.Projects .WeatherProject .project-description,
-.Projects .TicTacToeProject .project-description {
-  padding-right: 80px;
-}
-
-.Projects .project-description {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 10px;
+.Projects .WeatherProject .project-description {
+  padding-inline-end: 5em;
+  padding-inline-start: 2em;
 }
 
 .Projects .projects-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-  margin-bottom: 90px;
+  margin-block-start: 5rem;
+  margin-block-end: 5.6rem;
 }
 
-@media (max-width: 1400px) {
-  .Projects h2 {
-    font-size: 35px;
-  }
-
+@media (width <= 87.5rem) {
   .Projects .project-button .button-link {
-    padding: 18px 33px;
+    padding: 1.1rem 2rem;
   }
 
   .Projects .project-description h3 {
-    font-size: 25px;
-  }
-
-  .Projects .project-description p {
-    font-size: 19px;
+    font-size: 1.6rem;
   }
 
   .Projects .project-skills-icons {
-    padding-top: 16px !important;
-  }
-
-  .Projects .projects-img-icon img {
-    height: 50px;
-    width: auto;
-    border: none;
-    box-shadow: none;
-    margin-left: 6px;
-    margin-top: 3px;
+    padding-top: 16px;
   }
 }
 
 @media (max-width: 1200px) {
-  .Projects h2 {
-    font-size: 27px;
-  }
-
-  .Projects i {
-    font-size: 30px;
-  }
-
   .Projects .project-description h3 {
     font-size: 20px;
     margin: 0;
   }
 
-  .Projects .project-description p {
+  /* .Projects .project-description p {
     font-size: 17px;
-  }
+  } */
 
   .Projects .project-button {
     padding: 0;
@@ -153,6 +127,14 @@
   .Projects .projects-container {
     width: 100%;
   }
+
+  /* .Projects .row > * {
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    display: block;
+  } */
 
   .Projects .portfolio-project-image {
     display: flex;

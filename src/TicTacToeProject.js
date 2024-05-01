@@ -7,13 +7,18 @@ export default function TicTacToeProject() {
     <article className="TicTacToeProject">
       <section className="container projects-container">
         <div className="row">
+          <div className="col-md-6 portfolio-project-image d-md-block">
+            <img
+              src={ticTacToeProject}
+              className="img-fluid portfolio-project-image border-0"
+              alt="#"
+            />
+          </div>
           <article className="col-lg-6 d-none d-lg-block project-description">
-            <h3 className="p-2 mb-3 text-end">Tic Tac Toe</h3>
-            <p className="p-2 m-0 text-end">
-              A Tic Tac Toe game in which you play against a computer player.
-              This project is built using Vanilla JavaScript, HTML, and CSS to
-              help deepen understanding of the core foundations. Challenge is
-              from{" "}
+            <h3 className="p-2 mb-3 text-start">Tic Tac Toe</h3>
+            <p className="p-2 m-0 text-start">
+              A Tic Tac Toe game in which you play against a computer player
+              that uses random moves. Challenge is from{" "}
               <a
                 href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
                 className="challenge-link"
@@ -25,22 +30,22 @@ export default function TicTacToeProject() {
               .
             </p>
             <div className="project-skills-icons pt-4">
-              <ul className="d-flex p-0 justify-content-end">
-                <p className="p-2">Technologies: </p>
-                <li className="skills-icon p-2">
+              <ul className="d-flex p-0 justify-content-start">
+                <p className="pt-2">Technologies: </p>
+                <li className="skills-icon">
                   <i className="fa-brands fa-html5"></i>
                 </li>
-                <li className="skills-icon p-2">
+                <li className="skills-icon">
                   <i className="fa-brands fa-css3-alt"></i>
                 </li>
-                <li className="skills-icon p-2">
+                <li className="skills-icon">
                   <i className="fa-brands fa-square-js"></i>
                 </li>
-                <li className="skills-icon p-2">
+                <li className="skills-icon">
                   <i class="fa-solid fa-mobile-screen-button"></i>
                 </li>
               </ul>
-              <ul className="d-flex justify-content-end project-button">
+              <ul className="d-flex justify-content-start project-button">
                 <li className="project-button pe-3">
                   <a
                     href="https://isabellalizarde-tic-tac-toe.netlify.app"
@@ -66,19 +71,18 @@ export default function TicTacToeProject() {
               </ul>
             </div>
           </article>
-          <div className="col-md-6 portfolio-project-image d-md-block">
+          {/* <div className="col-md-6 portfolio-project-image d-md-block">
             <img
               src={ticTacToeProject}
               className="img-fluid portfolio-project-image border-0"
               alt="#"
             />
-          </div>
+          </div> */}
           <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
             <h3 className="mt-3">Tic Tac Toe</h3>
             <p className="p-2 m-3 text-center">
-              A Tic Tac Toe game in which you play against the computer. Vanilla
-              JavaScript, HTML, and CSS, are used to build this project to help
-              deepen understanding of core foundations. Challenge is from{" "}
+              A Tic Tac Toe game in which you play against a computer player
+              that uses random moves. Challenge is from{" "}
               <a
                 href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
                 className="challenge-link"

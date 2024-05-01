@@ -24,14 +24,14 @@ export default function LandingPageProject() {
             </p>
             <div className="project-skills-icons pt-4">
               <ul className="d-flex p-0 justify-content-end">
-                <p className="p-2">Technologies: </p>
-                <li className="skills-icon p-2">
+                <p className="pt-2">Technologies: </p>
+                <li className="skills-icon">
                   <i className="fa-brands fa-html5"></i>
                 </li>
-                <li className="skills-icon p-2">
+                <li className="skills-icon">
                   <i className="fa-brands fa-css3-alt"></i>
                 </li>
-                <li className="skills-icon p-2">
+                <li className="skills-icon">
                   <i class="fa-solid fa-mobile-screen-button"></i>
                 </li>
               </ul>
