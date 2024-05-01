@@ -39,12 +39,12 @@ function App() {
 
   return (
     <div className="App" id="homepage">
-      <div className="hero-container" id="top">
+      <header className="hero-container" id="top">
         <NavBar />
         <div className="hero">
           <hgroup className="hero-header">
             <h1>Hello, I'm Isabella.</h1>
-            <h2 className="py-2">Front-end developer </h2>
+            <h2 className="py-2">Front-end Developer </h2>
           </hgroup>
           <p className="downArrow">
             <i className="fa-solid fa-chevron-down fa-bounce"></i>
@@ -65,7 +65,7 @@ function App() {
             />
           </div>
         </div>
-      </div>
+      </header>
       <Main />
       <Footer />
     </div>
