@@ -30,7 +30,7 @@
 }
 
 .Projects .project-button .button-link {
-  padding: 1.3em 2.2em;
+  padding: 0.9em 1.85em;
 }
 
 .Projects .project-description {
@@ -57,59 +57,36 @@
 }
 
 @media (width <= 87.5rem) {
-  .Projects .project-button .button-link {
-    padding: 1.1rem 2rem;
-  }
-
   .Projects .project-description h3 {
     font-size: 1.6rem;
   }
 
   .Projects .project-skills-icons {
-    padding-top: 16px;
+    padding-block-start: 1rem;
   }
 }
 
-@media (max-width: 1200px) {
+@media (width <= 75rem) {
   .Projects .project-description h3 {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin: 0;
   }
-
-  /* .Projects .project-description p {
-    font-size: 17px;
-  } */
-
-  .Projects .project-button {
-    padding: 0;
-  }
-
-  .Projects .project-button .button-link {
-    padding: 12px 27px;
-  }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 62rem) {
   .Projects .project-description {
-    display: block;
-    width: fit-content;
+    max-width: fit-content;
   }
 
   .Projects .responsive-project-description {
     display: flex;
     flex-direction: column;
-    height: 350px;
     justify-content: center;
     align-items: center;
   }
 
   .Projects .project-button {
-    padding: 0px;
-    margin: 10px;
-  }
-
-  .Projects .project-button .button-link {
-    padding: 18px 33px;
+    margin: 0.6em;
   }
 
   .Projects .DictionaryProject .project-description,
@@ -121,24 +98,6 @@
   }
 
   .Projects .responsive-project-description i {
-    font-size: 40px;
-  }
-
-  .Projects .projects-container {
-    width: 100%;
-  }
-
-  /* .Projects .row > * {
-    flex-shrink: 0;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    display: block;
-  } */
-
-  .Projects .portfolio-project-image {
-    display: flex;
-    width: 100%;
-    height: auto;
+    font-size: 2.5rem;
   }
 }

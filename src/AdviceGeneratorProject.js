@@ -7,11 +7,11 @@ export default function AdviceGeneratorProject() {
     <article className="AdviceGeneratorProject">
       <section className="container projects-container">
         <div className="row">
-          <div className="col-md-6 portfolio-project-image d-md-block">
+          <div className="col-md-12 col-lg-6 portfolio-project-image d-md-block">
             <img
               src={adviceGeneratorProject}
               className="img-fluid portfolio-project-image border-0"
-              alt="#"
+              alt="Isabella Lizarde Advice Generator Project Image"
             />
           </div>
           <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">

@@ -7,11 +7,11 @@ export default function TicTacToeProject() {
     <article className="TicTacToeProject">
       <section className="container projects-container">
         <div className="row">
-          <div className="col-md-6 portfolio-project-image d-md-block">
+          <div className="col-md-12 col-lg-6 portfolio-project-image d-md-block">
             <img
               src={ticTacToeProject}
               className="img-fluid portfolio-project-image border-0"
-              alt="#"
+              alt="Isabella Lizarde TicTacToe Project Image"
             />
           </div>
           <article className="col-lg-6 d-none d-lg-block project-description">

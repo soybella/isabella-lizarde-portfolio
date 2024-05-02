@@ -10,8 +10,8 @@ export default function DictionaryProject() {
           <div className="col-md-6 portfolio-project-image d-md-block">
             <img
               src={dictionaryProject}
-              className="img-fluid portfolio-project-image border-0"
-              alt="#"
+              className="img-fluid border-0"
+              alt="Isabella Lizarde Dictionary Project Image"
             />
           </div>
           <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">

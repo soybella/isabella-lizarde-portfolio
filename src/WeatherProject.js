@@ -62,11 +62,11 @@ export default function WeatherProject() {
               </ul>
             </div>
           </article>
-          <div className="col-md-6 portfolio-project-image d-md-block">
+          <div className="col-md-12 col-lg-6 portfolio-project-image d-md-block">
             <img
               src={weatherProject}
               className="img-fluid portfolio-project-image border-0"
-              alt="#"
+              alt="Isabella Lizarde Weather Project Image"
             />
           </div>
           <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
