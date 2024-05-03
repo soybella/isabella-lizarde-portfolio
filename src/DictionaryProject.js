@@ -11,7 +11,7 @@ export default function DictionaryProject() {
             <img
               src={dictionaryProject}
               className="img-fluid border-0"
-              alt="Isabella Lizarde Dictionary Project Image"
+              alt="Isabella Lizarde Dictionary Project"
             />
           </div>
           <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">

@@ -66,7 +66,7 @@ export default function WeatherProject() {
             <img
               src={weatherProject}
               className="img-fluid portfolio-project-image border-0"
-              alt="Isabella Lizarde Weather Project Image"
+              alt="Isabella Lizarde Weather Project"
             />
           </div>
           <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">

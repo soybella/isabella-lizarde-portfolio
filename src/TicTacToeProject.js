@@ -11,7 +11,7 @@ export default function TicTacToeProject() {
             <img
               src={ticTacToeProject}
               className="img-fluid portfolio-project-image border-0"
-              alt="Isabella Lizarde TicTacToe Project Image"
+              alt="Isabella Lizarde TicTacToe Project"
             />
           </div>
           <article className="col-lg-6 d-none d-lg-block project-description">

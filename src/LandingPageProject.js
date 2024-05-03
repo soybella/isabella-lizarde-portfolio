@@ -65,7 +65,7 @@ export default function LandingPageProject() {
             <img
               src={landingPageProject}
               className="img-fluid portfolio-project-image border-0"
-              alt="Isabella Lizarde Landing Page Project Image"
+              alt="Isabella Lizarde Landing Page Project"
             />
           </div>
           <article className="responsive-project-description d-sm-block d-lg-none project-description pt-3">
