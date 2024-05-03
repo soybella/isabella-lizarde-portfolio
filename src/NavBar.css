@@ -3,9 +3,10 @@
 }
 
 .NavBar .navbar-length {
-  max-width: 100%;
-  margin-left: 48px;
-  margin-right: 48px;
+  max-inline-size: 100%;
+  /* margin-inline-start: 48px; */
+  /* margin-inline-end: 48px; */
+  margin-inline: 3rem;
 }
 
 .NavBar .navbar-toggler {
@@ -13,12 +14,12 @@
 }
 
 .NavBar .navbar-list {
-  justify-content: right;
+  justify-content: flex-end;
 }
 
 .NavBar .nav-item {
-  margin-right: 25px;
-  font-size: 18px;
+  margin-inline-end: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .NavBar .nav-item a {
@@ -37,12 +38,11 @@
   }
 
   .NavBar .navbar-length {
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-inline: 1.5rem;
   }
 
   .NavBar .navbar-nav .nav-item {
     text-align: end;
-    margin-right: 0;
+    margin-inline-end: 0;
   }
 }
