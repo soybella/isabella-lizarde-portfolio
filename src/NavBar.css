@@ -4,8 +4,6 @@
 
 .NavBar .navbar-length {
   max-inline-size: 100%;
-  /* margin-inline-start: 48px; */
-  /* margin-inline-end: 48px; */
   margin-inline: 3rem;
 }
 
