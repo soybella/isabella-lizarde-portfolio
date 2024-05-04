@@ -1,89 +1,54 @@
 .Main .portfolio-about-image {
   display: flex;
-  margin: 0 auto;
-  padding: 15px;
-  max-width: 475px;
-  height: auto;
+  margin: auto;
+  padding: 1em;
+  max-inline-size: 30rem;
 }
 
 .Main .about-header h2 {
   display: flex;
-  padding-bottom: 10px;
+  font-size: clamp(1.8rem, 1rem + 2vw, 2rem);
 }
 
 .Main .header {
-  width: fit-content;
-  border-bottom: 3px solid var(--green-blue-color);
+  max-width: fit-content;
+  text-decoration: underline solid var(--green-blue-color);
+  text-underline-offset: 0.5rem;
+}
+
+.Main .about-bio {
+  padding-block: 1em;
 }
 
 .Main .about-bio p {
   text-align: start;
-  font-size: 21px;
-  padding: 15px;
+  font-size: clamp(0.9rem, 0.75rem + 1vw, 1.1rem);
+  padding: 0.7em;
 }
 
 .Main .about-me-container {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  max-width: 1200px;
+  max-inline-size: 75rem;
 }
 
 .Main .about-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 80px;
-  padding-right: 35px;
-  padding-left: 35px;
+  max-inline-size: 75rem;
+  margin-block-end: 5rem;
+  margin-inline: auto;
 }
 
-@media (max-width: 1400px) {
-  .Main .about-header h2 {
-    font-size: 32px;
-  }
-
+@media (max-width: 62rem) {
   .Main .about-bio p {
-    font-size: 18px;
-  }
-
-  .Main .portfolio-about-image {
-    max-width: 430px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .Main .about-header h2 {
-    font-size: 28px;
-  }
-
-  .Main .about-bio p {
-    font-size: 16.5px;
-  }
-
-  .Main .portfolio-about-image {
-    max-width: 415px;
-  }
-}
-
-@media (max-width: 992px) {
-  .Main .about-header h2 {
-    margin-bottom: 80px;
-  }
-
-  .Main .about-bio {
-    padding: 0 15px;
-  }
-
-  .Main .about-bio p {
-    font-size: 20px;
     text-align: center;
   }
-}
 
-@media (max-width: 768px) {
-  .Main .about-bio p {
+  .Main .about-me-container {
+    max-inline-size: 52rem;
     text-align: center;
   }
 }
