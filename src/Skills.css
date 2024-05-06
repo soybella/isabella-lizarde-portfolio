@@ -23,8 +23,6 @@
   display: grid;
   grid-gap: 6.25rem;
   grid-template-columns: repeat(5, 1fr);
-  justify-content: center;
-  align-items: center;
 }
 
 .skills-icon {
@@ -35,41 +33,12 @@
 }
 
 .Skills .skills-icon h4 {
-  font-size: 1.2rem;
-}
-
-@media (max-width: 1400px) {
-  .Skills h2 {
-    /* font-size: 35px; */
-  }
-  .Skills .skills-icon i {
-    /* font-size: 60px; */
-  }
-}
-
-@media (max-width: 1200px) {
-  .Skills h2 {
-    /* font-size: 30px; */
-  }
-
-  .Skills .skills-icon i {
-    /* font-size: 55px; */
-  }
+  font-size: clamp(0.75rem, 0.5rem + 1.5vw, 1.3rem);
 }
 
 @media (max-width: 992px) {
   .Skills .skills-container {
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-  }
-
-  .Skills .skills-icon li {
-    padding: 10px;
-  }
-
-  .Skills .skills-icon i {
-    /* font-size: 55px; */
-    max-inline-size: 100px;
-    margin: auto;
+    grid-gap: 2.5rem;
   }
 }
