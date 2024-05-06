@@ -1,16 +1,15 @@
 .Skills {
-  padding-bottom: 80px;
+  padding-block-end: 5rem;
 }
 
 .Skills .header {
-  margin-bottom: 80px;
-  border-bottom: 3px solid var(--green-blue-color);
+  margin-block-end: 5rem;
 }
 
 .Skills i {
-  font-size: 65px;
+  font-size: clamp(3.5rem, 1.5rem + 2vw, 4rem);
   transition: all 150ms ease-in-out;
-  padding: 15px;
+  padding: 1rem;
 }
 
 .Skills i:hover {
@@ -22,7 +21,7 @@
 
 .skills-container {
   display: grid;
-  grid-gap: 100px;
+  grid-gap: 6.25rem;
   grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   align-items: center;
@@ -36,25 +35,25 @@
 }
 
 .Skills .skills-icon h4 {
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 
 @media (max-width: 1400px) {
   .Skills h2 {
-    font-size: 35px;
+    /* font-size: 35px; */
   }
   .Skills .skills-icon i {
-    font-size: 60px;
+    /* font-size: 60px; */
   }
 }
 
 @media (max-width: 1200px) {
   .Skills h2 {
-    font-size: 30px;
+    /* font-size: 30px; */
   }
 
   .Skills .skills-icon i {
-    font-size: 55px;
+    /* font-size: 55px; */
   }
 }
 
@@ -69,8 +68,8 @@
   }
 
   .Skills .skills-icon i {
-    font-size: 55px;
-    width: 100px;
-    margin: 0 auto;
+    /* font-size: 55px; */
+    max-inline-size: 100px;
+    margin: auto;
   }
 }
