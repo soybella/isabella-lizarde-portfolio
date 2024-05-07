@@ -32,12 +32,11 @@ export default function Contact() {
                   If you have any questions about my work or want to grab a
                   coffee and chat about anything true crime or paranormal - go
                   ahead and send me a message on here or on any of my socials,
-                  thanks for stopping by. <br /> <br /> Download my Resume{" "}
+                  thanks for stopping by! <br /> <br /> Download my Resume{" "}
                   <a href={resumeLink} target="_blank" rel="noreferrer">
                     {" "}
                     here
                   </a>
-                  !
                 </p>
                 <div class="social-media">
                   <ul class="icons pt-3">

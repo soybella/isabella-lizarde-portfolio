@@ -1,12 +1,11 @@
 .Contact {
-  padding-top: 80px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-block-start: 5rem;
+  padding-inline: 1rem;
   color: black;
 }
 
 .Contact h2 {
-  margin: 0 auto;
+  margin: auto;
 }
 
 .Contact .contact-info {
@@ -14,38 +13,38 @@
 }
 
 .Contact .contact-info p {
+  font-size: clamp(0.75rem, 0.5rem + 1.5vw, 1.2rem);
   max-width: 90%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .Contact .contact-header {
-  font-size: 35px;
+  font-size: clamp(2rem, 0.75rem + 2vw, 2.2rem);
 }
 
 .Contact .contact-button-link {
   display: block;
-  margin: 0 auto;
-  width: fit-content;
-  padding: 18px 33px;
+  margin: auto;
+  max-inline-size: 100%;
+  padding: 1.1em 2em;
   color: white;
 }
 
 .Contact .input-details {
   display: grid;
-  max-width: 650px;
-  grid-gap: 20px;
+  max-inline-size: 41rem;
+  grid-gap: 1.3rem;
 }
 
 .Contact .social-media ul {
   display: block;
   list-style-type: none;
-  /* text-align: center; */
-  padding-left: 0.8rem;
+  padding-inline-start: 0.8rem;
 }
 
 .Contact .icons li {
-  display: inline;
-  padding: 10px;
+  display: inline-block;
+  padding: 0.6rem;
 }
 
 .Contact .icons a {
@@ -63,50 +62,15 @@
 }
 
 .Contact .icons i {
-  font-size: 35px;
+  font-size: 2.2rem;
 }
 
-@media (max-width: 1400px) {
-  .Contact h2 {
-    font-size: 35px;
-  }
-
-  .Contact .contact-info p {
-    font-size: 19px;
-  }
-}
-
-@media (max-width: 1200px) {
-  .Contact h2 {
-    font-size: 30px;
-  }
-
-  .Contact .button-link {
-    padding: 12px 27px;
-  }
-
-  .Contact .contact-info p {
-    font-size: 17px;
-  }
-
+@media (max-width: 62rem) {
   .Contact .contact-info {
-    max-width: 50%;
-  }
-}
-
-@media (max-width: 992px) {
-  .Contact .contact-info {
-    max-width: 650px;
+    max-inline-size: 100%;
   }
 
-  .Contact .button-link {
-    padding: 18px 33px;
-  }
-
-  .Contact .contact-info p {
-    text-align: center;
-  }
-
+  .Contact .contact-info p,
   .Contact .social-media ul {
     text-align: center;
   }
