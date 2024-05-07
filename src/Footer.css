@@ -1,5 +1,5 @@
 .Footer p {
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 .Footer .footer-link {
@@ -10,12 +10,13 @@
 .Footer .to-top-link {
   display: flex;
   justify-content: center;
-  max-width: 100%;
+  max-inline-size: 100%;
   text-decoration: none;
   color: var(--font-color);
-  width: fit-content;
+  max-width: fit-content;
 }
 
 .Footer .to-top-link:hover {
-  color: var(--teal-blue-color);
+  color: var(--green-blue-color);
+  transition: var(--transitionOnHover);
 }
