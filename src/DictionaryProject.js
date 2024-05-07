@@ -7,10 +7,10 @@ export default function DictionaryProject() {
     <article className="DictionaryProject">
       <section className="container projects-container">
         <div className="row">
-          <div className="col-md-6 portfolio-project-image d-md-block">
+          <div className="col-lg-6 col-md-12 portfolio-project-image d-md-block">
             <img
               src={dictionaryProject}
-              className="img-fluid border-0"
+              className="img-fluid portfolio-project-image border-0"
               alt="Isabella Lizarde Dictionary Project"
             />
           </div>

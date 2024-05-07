@@ -73,6 +73,16 @@ export default function LandingPageProject() {
             <p className="p-2 m-3 text-center">
               A web app that uses advanced elements of JavaScript to create
               display a clock with times from different places around the world.
+              Challenge is from{" "}
+              <a
+                href="https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db"
+                className="challenge-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Frontend Mentor
+              </a>
+              .
             </p>
             <div className="project-skills-icons pt-2">
               <ul className="d-flex p-0 justify-content-center">
