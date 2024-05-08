@@ -1,11 +1,10 @@
-.Contact {
-  padding-block-start: 5rem;
-  padding-inline: 1rem;
-  color: black;
-}
-
 .Contact h2 {
   margin: auto;
+}
+
+.Contact a {
+  color: var(--green-blue-color);
+  text-decoration: none;
 }
 
 .Contact .contact-info {
@@ -16,6 +15,30 @@
   font-size: clamp(0.75rem, 0.5rem + 1.5vw, 1.2rem);
   max-width: 90%;
   margin: auto;
+}
+
+.Contact .social-media ul {
+  display: block;
+  list-style-type: none;
+  padding-inline-start: 0.8rem;
+}
+
+.Contact .icons li {
+  display: inline-block;
+  padding: 0.6rem;
+}
+
+.Contact .icons a {
+  color: var(--teal-blue-color);
+}
+
+.Contact .icons a:hover {
+  opacity: 0.9;
+  transition: var(--transitionOnHover);
+}
+
+.Contact .icons i {
+  font-size: 2.2rem;
 }
 
 .Contact .contact-header {
@@ -36,33 +59,10 @@
   grid-gap: 1.3rem;
 }
 
-.Contact .social-media ul {
-  display: block;
-  list-style-type: none;
-  padding-inline-start: 0.8rem;
-}
-
-.Contact .icons li {
-  display: inline-block;
-  padding: 0.6rem;
-}
-
-.Contact .icons a {
-  color: var(--teal-blue-color);
-}
-
-.Contact a {
-  color: var(--green-blue-color);
-  text-decoration: none;
-}
-
-.Contact .icons a:hover {
-  opacity: 0.9;
-  transition: var(--transitionOnHover);
-}
-
-.Contact .icons i {
-  font-size: 2.2rem;
+.Contact {
+  padding-block-start: 5rem;
+  padding-inline: 1rem;
+  color: black;
 }
 
 @media (max-width: 62rem) {

@@ -1,19 +1,12 @@
-.Main .portfolio-about-image {
-  display: flex;
-  margin: auto;
-  padding: 1em;
-  max-inline-size: 30rem;
+.Main .header {
+  max-width: fit-content;
+  text-decoration: underline solid var(--green-blue-color);
+  text-underline-offset: 0.5rem;
 }
 
 .Main .about-header h2 {
   display: flex;
   font-size: clamp(1.8rem, 1rem + 2vw, 2rem);
-}
-
-.Main .header {
-  max-width: fit-content;
-  text-decoration: underline solid var(--green-blue-color);
-  text-underline-offset: 0.5rem;
 }
 
 .Main .about-bio {
@@ -42,7 +35,14 @@
   margin-inline: auto;
 }
 
-@media (max-width: 62rem) {
+.Main .portfolio-about-image {
+  display: flex;
+  margin: auto;
+  padding: 1em;
+  max-inline-size: 30rem;
+}
+
+@media (width < 62rem) {
   .Main .about-bio p {
     text-align: center;
   }

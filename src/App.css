@@ -1,6 +1,6 @@
 :root {
   --body-background: hsl(0, 0%, 100%);
-  --font-color: black;
+  --font-color: hsl(0, 0%, 0%);
   --dark-blue-color: hsl(197, 62%, 14%);
   --teal-blue-color: hsl(191, 69%, 28%);
   --green-blue-color: hsl(174, 30%, 61%);
@@ -21,8 +21,6 @@
   --body-background: hsl(197, 62%, 14%);
   --font-color: hsl(0, 0%, 100%);
 }
-
-/* FIND REPEAT CODE AND CLEAN/CONDENSE */
 
 * {
   box-sizing: border-box;
@@ -50,16 +48,10 @@ h1 {
 h2 {
   text-align: start;
   margin-inline-end: 0;
-  font-size: 2.3rem;
 }
 
 h5 {
   text-transform: capitalize;
-}
-
-p,
-a {
-  font-family: var(--main-font);
 }
 
 h3 {
@@ -67,13 +59,7 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
   opacity: 0.9;
-}
-
-img {
-  border-radius: 0.4rem;
-  box-shadow: var(--box-shadow);
 }
 
 p {
@@ -81,10 +67,73 @@ p {
   text-align: start;
 }
 
+p,
+a {
+  font-family: var(--main-font);
+}
+
+img {
+  border-radius: 0.4rem;
+  box-shadow: var(--box-shadow);
+}
+
 .App {
   background: var(--body-background);
   color: var(--font-color);
   transition: all 250ms ease-in-out;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100svh;
+  flex-direction: column;
+}
+
+.hero-container {
+  overflow: hidden;
+}
+
+.hero-header h1 {
+  text-align: center;
+  font-family: "Source Code Pro", monospace;
+  text-transform: none;
+  position: relative;
+}
+
+.hero-header h1::before,
+.hero-header h1::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.hero-header h1::before {
+  background: var(--body-background);
+  animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
+    forwards;
+}
+
+.hero-header h1::after {
+  width: 0.2rem;
+  background: hsl(0, 0%, 0%);
+  animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
+      forwards,
+    blink 875ms var(--typewriterCharacters) infinite;
+}
+
+.hero-header h2 {
+  text-align: center;
+  font-size: clamp(1.5rem, 1rem + 1.5vw, 2.8rem);
+  opacity: 0;
+  transform: translateY(3rem);
+  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+}
+
+.logo-small {
+  max-height: 3.2rem;
+  box-shadow: none;
 }
 
 .downArrow {
@@ -122,62 +171,6 @@ p {
 
 .toggleSwitch i.moon {
   color: var(--dark-blue-color);
-}
-
-.logo-small {
-  max-height: 3.2rem;
-  box-shadow: none;
-}
-
-.hero {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100svh;
-  flex-direction: column;
-}
-
-.hero-container {
-  overflow: hidden;
-}
-
-.hero-header h1 {
-  text-align: center;
-  font-family: "Source Code Pro", monospace;
-  text-transform: none;
-  position: relative;
-}
-
-.hero-header h1::before,
-.hero-header h1::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-}
-
-.hero-header h1::before {
-  background: var(--body-background);
-  animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
-    forwards;
-}
-
-.hero-header h1::after {
-  width: 0.2rem;
-  background: hsl(0, 0%, 0%);
-  animation: typewriter var(--typewriterSpeed) var(--typewriterCharacters) 1s
-      forwards,
-    blink 875ms var(--typewriterCharacters) infinite;
-}
-
-.hero-header h2 {
-  text-align: center;
-  font-size: clamp(1.5rem, 1rem + 1.5vw, 2.8rem);
-  opacity: 0;
-  transform: translateY(3rem);
-  animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
 
 .container-bg {
@@ -227,7 +220,7 @@ p {
   }
 }
 
-@media (max-width: 62rem) {
+@media (width < 62rem) {
   h1,
   h2,
   h3,

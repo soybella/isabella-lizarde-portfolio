@@ -24,7 +24,7 @@ export default function Main() {
             <div className="about-bio">
               <p>
                 Hello World! My name is Isabella Lizarde, and I'm a Front-end
-                Web Developer based in California 🇺🇸 <br />
+                Web Developer based in California. <br />
               </p>
               <p>
                 I've always had a passion for creating beautiful works of art
@@ -36,7 +36,7 @@ export default function Main() {
               <p>
                 When I'm not coding, I like to spend my free time walking my
                 dogs, catching up on some video games, or finding a new local
-                coffee shop ☕️
+                coffee shop.
                 <br /> <br />
                 Feel free to send me a message below if you have any questions!
               </p>

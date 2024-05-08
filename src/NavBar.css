@@ -8,7 +8,7 @@
 }
 
 .NavBar .navbar-toggler {
-  background: white;
+  background: hsl(0, 0%, 100%);
 }
 
 .NavBar .navbar-list {
@@ -30,7 +30,7 @@
   color: var(--green-blue-color);
 }
 
-@media (max-width: 992px) {
+@media (width < 62rem) {
   .NavBar .fixed-top {
     position: static;
   }
