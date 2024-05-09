@@ -49,6 +49,7 @@
 
   .Main .about-me-container {
     max-inline-size: 52rem;
+    padding-inline: 1rem;
     text-align: center;
   }
 }
