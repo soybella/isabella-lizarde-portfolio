@@ -1,7 +1,7 @@
 :root {
   --body-background: hsl(0, 0%, 100%);
   --font-color: hsl(0, 0%, 0%);
-  --dark-blue-color: hsl(197, 62%, 14%);
+  --dark-blue-color: hsl(198, 61%, 14%);
   --teal-blue-color: hsl(191, 69%, 28%);
   --green-blue-color: hsl(174, 30%, 61%);
   --container-color: hsl(0, 0%, 94%);
@@ -14,11 +14,11 @@
 
 [data-theme="light"] {
   --body-background: hsl(0, 0%, 100%);
-  --font-color: black;
+  --font-color: var(--dark-blue-color);
 }
 
 [data-theme="dark"] {
-  --body-background: hsl(197, 62%, 14%);
+  --body-background: hsl(214, 50%, 11%);
   --font-color: hsl(0, 0%, 100%);
 }
 

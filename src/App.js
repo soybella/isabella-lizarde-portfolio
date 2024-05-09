@@ -58,9 +58,10 @@ function App() {
               checked={selectedTheme === "light"}
               checkedIcon={sunIcon}
               uncheckedIcon={moonIcon}
-              onColor="#166678"
+              onColor="#daa520"
+              onHandleColor="#0e2d3a"
               offColor="#FFFFFF"
-              offHandleColor="#166678"
+              offHandleColor="#daa520"
               width={70}
             />
           </div>
