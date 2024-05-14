@@ -51,7 +51,7 @@ function App() {
           </p>
           <div className="toggleSwitch">
             <ReactSwitch
-              onChange={toggleTheme}
+              onChange={(isChecked) => toggleTheme(isChecked)}
               value={isChecked}
               type="checkbox"
               inputMode="checkbox"
@@ -59,7 +59,7 @@ function App() {
               checkedIcon={sunIcon}
               uncheckedIcon={moonIcon}
               onColor="#daa520"
-              onHandleColor="#0e2d3a"
+              onHandleColor="#0e2c39"
               offColor="#FFFFFF"
               offHandleColor="#daa520"
               width={70}

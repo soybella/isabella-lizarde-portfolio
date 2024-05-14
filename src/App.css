@@ -201,6 +201,15 @@ img {
   color: var(--teal-blue-color);
 }
 
+/* .fade-in-section {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in-section.visible {
+  opacity: 1;
+} */
+
 @keyframes typewriter {
   to {
     margin-inline-start: 100%;
