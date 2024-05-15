@@ -25,7 +25,6 @@ function App() {
   }
 
   const toggleTheme = (event) => {
-    console.log(event);
     if (event === true) {
       setLightTheme();
     } else {
@@ -55,7 +54,8 @@ function App() {
               value={isChecked}
               type="checkbox"
               inputMode="checkbox"
-              checked={selectedTheme === "light"}
+              checked={isChecked === true ? true : false}
+              // checked={selectedTheme === "light"}
               checkedIcon={sunIcon}
               uncheckedIcon={moonIcon}
               onColor="#daa520"
