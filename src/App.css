@@ -26,6 +26,10 @@
   box-sizing: border-box;
 }
 
+html {
+  color-scheme: dark light;
+}
+
 body {
   margin: auto;
   scroll-behavior: smooth;
@@ -209,6 +213,15 @@ img {
 .fade-in-section.visible {
   opacity: 1;
 } */
+
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 2.5s ease;
+}
+
+.visible {
+  opacity: 1;
+}
 
 @keyframes typewriter {
   to {
