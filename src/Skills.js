@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import useIntersectionObserver from "./useIntersectionObserver";
 import "./Skills.css";
 
 export default function Skills() {
+  const [ref, isIntersecting] = useIntersectionObserver({
+    rootMargin: "-220px",
+  });
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.classList.add("visible");
+    } else {
+      ref.current.classList.remove("visible");
+    }
+  }, [isIntersecting]);
+
   return (
-    <article className="Skills" id="skills">
+    <article className="Skills fade-in-section" ref={ref} id="skills">
       <h2 className="text-center container header">Skills</h2>
       <ul className="skills-container container p-3">
         <li className="skills-icon">
