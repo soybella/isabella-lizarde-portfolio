@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import useIntersectionObserver from "./useIntersectionObserver";
 import Skills from "./Skills.js";
 import Projects from "./Projects.js";
 import Contact from "./Contact.js";
@@ -6,9 +7,21 @@ import profilePhoto from "./images/portfolio-photo.jpeg";
 import "./Main.css";
 
 export default function Main() {
+  const [ref, isIntersecting] = useIntersectionObserver({
+    rootMargin: "-220px",
+  });
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.classList.add("visible");
+    } else {
+      ref.current.classList.remove("visible");
+    }
+  }, [isIntersecting]);
+
   return (
     <main className="Main" id="about">
-      <article className="about-container">
+      <article className="about-container fade-in-section" ref={ref}>
         <div className="row">
           <div className="col-lg-6 portfolio-about-image d-none d-lg-block">
             <img
@@ -44,7 +57,7 @@ export default function Main() {
           </section>
         </div>
       </article>
-      <Skills />
+      <Skills observer={ref.current} />
       <Projects />
       <Contact />
     </main>
