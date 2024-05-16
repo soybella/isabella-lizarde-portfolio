@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import useIntersectionObserver from "./useIntersectionObserver";
 import landingPageProject from "./images/landing-page-project.png";
 import "./Projects.css";
 
 export default function LandingPageProject() {
+  const [ref, isIntersecting] = useIntersectionObserver({
+    rootMargin: "-220px",
+  });
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.classList.add("visible");
+    } else {
+      ref.current.classList.remove("visible");
+    }
+  }, [isIntersecting]);
+
   return (
-    <article className="LandingPageProject">
+    <article className="LandingPageProject fade-in-section" ref={ref}>
       <section className="container projects-container">
         <div className="row">
           <article className="col-lg-6 d-none d-lg-block project-description">

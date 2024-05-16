@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import useIntersectionObserver from "./useIntersectionObserver";
 import dictionaryProject from "./images/dictionary-project.png";
 import "./Projects.css";
 
 export default function DictionaryProject() {
+  const [ref, isIntersecting] = useIntersectionObserver({
+    rootMargin: "-220px",
+  });
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.classList.add("visible");
+    } else {
+      ref.current.classList.remove("visible");
+    }
+  }, [isIntersecting]);
+
   return (
-    <article className="DictionaryProject">
+    <article className="DictionaryProject fade-in-section" ref={ref}>
       <section className="container projects-container">
         <div className="row">
           <div className="col-lg-6 col-md-12 portfolio-project-image d-md-block">

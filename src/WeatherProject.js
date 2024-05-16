@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import useIntersectionObserver from "./useIntersectionObserver";
 import weatherProject from "./images/weather-project.png";
 import "./Projects.css";
 
 export default function WeatherProject() {
+  const [ref, isIntersecting] = useIntersectionObserver({
+    rootMargin: "-220px",
+  });
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.classList.add("visible");
+    } else {
+      ref.current.classList.remove("visible");
+    }
+  }, [isIntersecting]);
+
   return (
-    <article className="WeatherProject">
+    <article className="WeatherProject fade-in-section" ref={ref}>
       <section className="container projects-container">
         <div className="row">
           <article className="col-lg-6 d-none d-lg-block project-description">

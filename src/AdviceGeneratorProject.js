@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
+import useIntersectionObserver from "./useIntersectionObserver";
 import adviceGeneratorProject from "./images/advice-generator.png";
 import "./Projects.css";
 
 export default function AdviceGeneratorProject() {
+  const [ref, isIntersecting] = useIntersectionObserver({
+    rootMargin: "-220px",
+  });
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.classList.add("visible");
+    } else {
+      ref.current.classList.remove("visible");
+    }
+  }, [isIntersecting]);
+
   return (
-    <article className="AdviceGeneratorProject">
+    <article className="AdviceGeneratorProject fade-in-section" ref={ref}>
       <section className="container projects-container">
         <div className="row">
           <div className="col-md-12 col-lg-6 portfolio-project-image d-md-block">
