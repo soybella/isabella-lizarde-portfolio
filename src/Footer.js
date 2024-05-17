@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import useIntersectionObserver from "./useIntersectionObserver";
 import "./Footer.css";
 
 export default function Footer() {
+  const [ref, isIntersecting] = useIntersectionObserver({
+    rootMargin: "0px",
+  });
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.classList.add("visible");
+    } else {
+      ref.current.classList.remove("visible");
+    }
+  }, [isIntersecting]);
+
   return (
-    <footer className="Footer" id="#footer">
+    <footer className="Footer fade-in-section" id="#footer" ref={ref}>
       <p className="container text-center mt-3">
         Coded with ♥ by{" "}
         <a
