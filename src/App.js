@@ -68,7 +68,6 @@ function App() {
               type="checkbox"
               inputMode="checkbox"
               checked={isChecked === true ? true : false}
-              // checked={selectedTheme === "light"}
               checkedIcon={sunIcon}
               uncheckedIcon={moonIcon}
               onColor="#daa520"
