@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import useIntersectionObserver from "./useIntersectionObserver";
 import NavBar from "./NavBar.js";
 import Main from "./Main.js";
 import Footer from "./Footer.js";
@@ -36,9 +37,21 @@ function App() {
   const sunIcon = <i className="fa-regular fa-sun sun"></i>;
   const moonIcon = <i className="fa-regular fa-moon moon"></i>;
 
+  const [ref, isIntersecting] = useIntersectionObserver({
+    rootMargin: "-220px",
+  });
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.classList.add("visible");
+    } else {
+      ref.current.classList.remove("visible");
+    }
+  }, [isIntersecting]);
+
   return (
     <div className="App" id="homepage">
-      <header className="hero-container" id="top">
+      <header className="hero-container fade-in-section" id="top" ref={ref}>
         <NavBar />
         <div className="hero">
           <hgroup className="hero-header">

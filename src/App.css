@@ -27,7 +27,7 @@
 }
 
 html {
-  color-scheme: dark light;
+  color-scheme: light;
 }
 
 body {
@@ -205,18 +205,10 @@ img {
   color: var(--teal-blue-color);
 }
 
-/* .fade-in-section {
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.fade-in-section.visible {
-  opacity: 1;
-} */
-
 .fade-in-section {
   opacity: 0;
   transition: opacity 2.5s ease;
+  /* figure out how to fade in sections a little faster */
 }
 
 .visible {
