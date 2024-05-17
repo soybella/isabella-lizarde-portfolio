@@ -1,12 +1,26 @@
-import React from "react";
+import React, { useEffect } from "react";
+import useIntersectionObserver from "./useIntersectionObserver";
+
 import "./Contact.css";
 
 export default function Contact() {
+  const [ref, isIntersecting] = useIntersectionObserver({
+    rootMargin: "-220px",
+  });
+
+  useEffect(() => {
+    if (isIntersecting) {
+      ref.current.classList.add("visible");
+    } else {
+      ref.current.classList.remove("visible");
+    }
+  }, [isIntersecting]);
+
   const resumeLink =
     "https://drive.google.com/file/d/1BusgZZ6Ab3pYJArAg2_LiIjW96QXPADD/view?usp=drive_link";
 
   return (
-    <article className="Contact" id="contact">
+    <article className="Contact fade-in-section" id="contact" ref={ref}>
       <section className="container contact-container container-bg px-5 py-3">
         <div className="row">
           <h2 className="contact-header text-center border-0 py-3">
