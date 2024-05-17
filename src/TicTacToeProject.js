@@ -18,6 +18,7 @@ export default function TicTacToeProject() {
 
   return (
     <article className="TicTacToeProject fade-in-section" ref={ref}>
+      <h2 className="header container text-center">Current Projects</h2>
       <section className="container projects-container">
         <div className="row">
           <div className="col-md-12 col-lg-6 portfolio-project-image d-md-block">

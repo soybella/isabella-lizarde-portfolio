@@ -21,7 +21,7 @@ export default function Projects() {
   // }, [isIntersecting]);
   return (
     <section className="Projects" id="projects">
-      <h2 className="header container text-center">Projects</h2>
+      {/* <h2 className="header container text-center">Projects</h2> */}
       <DictionaryProject />
       <WeatherProject />
       <AdviceGeneratorProject />

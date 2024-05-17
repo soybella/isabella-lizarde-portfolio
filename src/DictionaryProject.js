@@ -18,6 +18,7 @@ export default function DictionaryProject() {
 
   return (
     <article className="DictionaryProject fade-in-section" ref={ref}>
+      <h2 className="header container text-center">Projects</h2>
       <section className="container projects-container">
         <div className="row">
           <div className="col-lg-6 col-md-12 portfolio-project-image d-md-block">
