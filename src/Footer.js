@@ -8,12 +8,23 @@ export default function Footer() {
   });
 
   useEffect(() => {
-    if (isIntersecting) {
-      ref.current.classList.add("visible");
-    } else {
-      ref.current.classList.remove("visible");
+    const currentRef = ref.current;
+
+    if (currentRef) {
+      if (isIntersecting) {
+        currentRef.classList.add("visible");
+      } else {
+        currentRef.classList.remove("visible");
+      }
     }
   }, [isIntersecting, ref]);
+  // useEffect(() => {
+  //   if (isIntersecting) {
+  //     ref.current.classList.add("visible");
+  //   } else {
+  //     ref.current.classList.remove("visible");
+  //   }
+  // }, [isIntersecting, ref]);
 
   return (
     <footer className="Footer fade-in-section" id="#footer" ref={ref}>

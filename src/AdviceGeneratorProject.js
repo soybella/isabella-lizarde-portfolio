@@ -9,12 +9,23 @@ export default function AdviceGeneratorProject() {
   });
 
   useEffect(() => {
-    if (isIntersecting) {
-      ref.current.classList.add("visible");
-    } else {
-      ref.current.classList.remove("visible");
+    const currentRef = ref.current;
+
+    if (currentRef) {
+      if (isIntersecting) {
+        currentRef.classList.add("visible");
+      } else {
+        currentRef.classList.remove("visible");
+      }
     }
   }, [isIntersecting, ref]);
+  // useEffect(() => {
+  //   if (isIntersecting) {
+  //     ref.current.classList.add("visible");
+  //   } else {
+  //     ref.current.classList.remove("visible");
+  //   }
+  // }, [isIntersecting]);
 
   return (
     <article className="AdviceGeneratorProject fade-in-section" ref={ref}>
