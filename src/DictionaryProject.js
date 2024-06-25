@@ -20,14 +20,6 @@ export default function DictionaryProject() {
     }
   }, [isIntersecting, ref]);
 
-  // useEffect(() => {
-  //   if (isIntersecting) {
-  //     ref.current.classList.add("visible");
-  //   } else {
-  //     ref.current.classList.remove("visible");
-  //   }
-  // }, [isIntersecting]);
-
   return (
     <article className="DictionaryProject fade-in-section" ref={ref}>
       <h2 className="header container text-center">Projects</h2>

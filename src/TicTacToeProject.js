@@ -19,13 +19,6 @@ export default function TicTacToeProject() {
       }
     }
   }, [isIntersecting, ref]);
-  // useEffect(() => {
-  //   if (isIntersecting) {
-  //     ref.current.classList.add("visible");
-  //   } else {
-  //     ref.current.classList.remove("visible");
-  //   }
-  // }, [isIntersecting]);
 
   return (
     <article className="TicTacToeProject fade-in-section" ref={ref}>

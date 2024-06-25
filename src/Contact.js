@@ -19,13 +19,6 @@ export default function Contact() {
       }
     }
   }, [isIntersecting, ref]);
-  // useEffect(() => {
-  //   if (isIntersecting) {
-  //     ref.current.classList.add("visible");
-  //   } else {
-  //     ref.current.classList.remove("visible");
-  //   }
-  // }, [isIntersecting, ref]);
 
   const resumeLink =
     "https://drive.google.com/file/d/1BusgZZ6Ab3pYJArAg2_LiIjW96QXPADD/view?usp=drive_link";

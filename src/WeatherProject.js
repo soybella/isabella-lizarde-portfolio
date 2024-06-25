@@ -19,13 +19,6 @@ export default function WeatherProject() {
       }
     }
   }, [isIntersecting, ref]);
-  // useEffect(() => {
-  //   if (isIntersecting) {
-  //     ref.current.classList.add("visible");
-  //   } else {
-  //     ref.current.classList.remove("visible");
-  //   }
-  // }, [isIntersecting, ref]);
 
   return (
     <article className="WeatherProject fade-in-section" ref={ref}>

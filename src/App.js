@@ -52,13 +52,6 @@ function App() {
       }
     }
   }, [isIntersecting, ref]);
-  // useEffect(() => {
-  //   if (isIntersecting) {
-  //     ref.current.classList.add("visible");
-  //   } else {
-  //     ref.current.classList.remove("visible");
-  //   }
-  // }, [isIntersecting]);
 
   return (
     <div className="App" id="homepage">
