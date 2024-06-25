@@ -14,7 +14,7 @@ export default function WeatherProject() {
     } else {
       ref.current.classList.remove("visible");
     }
-  }, [isIntersecting]);
+  }, [isIntersecting, ref]);
 
   return (
     <article className="WeatherProject fade-in-section" ref={ref}>

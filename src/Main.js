@@ -17,7 +17,7 @@ export default function Main() {
     } else {
       ref.current.classList.remove("visible");
     }
-  }, [isIntersecting]);
+  }, [isIntersecting, ref]);
 
   return (
     <main className="Main" id="about">

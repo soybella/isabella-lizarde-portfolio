@@ -13,7 +13,7 @@ export default function Footer() {
     } else {
       ref.current.classList.remove("visible");
     }
-  }, [isIntersecting]);
+  }, [isIntersecting, ref]);
 
   return (
     <footer className="Footer fade-in-section" id="#footer" ref={ref}>

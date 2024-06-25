@@ -14,7 +14,7 @@ export default function TicTacToeProject() {
     } else {
       ref.current.classList.remove("visible");
     }
-  }, [isIntersecting]);
+  }, [isIntersecting, ref]);
 
   return (
     <article className="TicTacToeProject fade-in-section" ref={ref}>

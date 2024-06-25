@@ -14,7 +14,7 @@ export default function DictionaryProject() {
     } else {
       ref.current.classList.remove("visible");
     }
-  }, [isIntersecting]);
+  }, [isIntersecting, ref]);
 
   return (
     <article className="DictionaryProject fade-in-section" ref={ref}>

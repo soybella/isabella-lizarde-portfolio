@@ -14,7 +14,7 @@ export default function Contact() {
     } else {
       ref.current.classList.remove("visible");
     }
-  }, [isIntersecting]);
+  }, [isIntersecting, ref]);
 
   const resumeLink =
     "https://drive.google.com/file/d/1BusgZZ6Ab3pYJArAg2_LiIjW96QXPADD/view?usp=drive_link";

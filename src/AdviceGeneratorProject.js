@@ -14,7 +14,7 @@ export default function AdviceGeneratorProject() {
     } else {
       ref.current.classList.remove("visible");
     }
-  }, [isIntersecting]);
+  }, [isIntersecting, ref]);
 
   return (
     <article className="AdviceGeneratorProject fade-in-section" ref={ref}>

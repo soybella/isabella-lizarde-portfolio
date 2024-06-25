@@ -47,7 +47,7 @@ function App() {
     } else {
       ref.current.classList.remove("visible");
     }
-  }, [isIntersecting]);
+  }, [isIntersecting, ref]);
 
   return (
     <div className="App" id="homepage">

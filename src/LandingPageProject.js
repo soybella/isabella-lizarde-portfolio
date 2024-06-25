@@ -14,7 +14,7 @@ export default function LandingPageProject() {
     } else {
       ref.current.classList.remove("visible");
     }
-  }, [isIntersecting]);
+  }, [isIntersecting, ref]);
 
   return (
     <article className="LandingPageProject fade-in-section" ref={ref}>
