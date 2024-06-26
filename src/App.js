@@ -7,7 +7,12 @@ import ReactSwitch from "react-switch";
 import "./App.css";
 
 function App() {
-  const [isChecked, setIsChecked] = useState(true);
+  const sunIcon = <i className="fa-regular fa-sun sun"></i>;
+  const moonIcon = <i className="fa-regular fa-moon moon"></i>;
+  const [isChecked, setIsChecked] = useState(() => {
+    const selectedTheme = localStorage.getItem("selectedTheme");
+    return selectedTheme !== "dark";
+  });
 
   const setDarkTheme = () => {
     document.querySelector("body").setAttribute("data-theme", "dark");
@@ -19,23 +24,23 @@ function App() {
     localStorage.setItem("selectedTheme", "light");
   };
 
-  const selectedTheme = localStorage.getItem("selectedTheme");
+  useEffect(() => {
+    const selectedTheme = localStorage.getItem("selectedTheme");
+    if (selectedTheme === "dark") {
+      setDarkTheme();
+    } else {
+      setLightTheme();
+    }
+  }, []);
 
-  if (selectedTheme === "dark") {
-    setDarkTheme();
-  }
-
-  const toggleTheme = (event) => {
-    if (event === true) {
+  const toggleTheme = (checked) => {
+    if (checked) {
       setLightTheme();
     } else {
       setDarkTheme();
     }
-    setIsChecked((current) => !current);
+    setIsChecked(checked);
   };
-
-  const sunIcon = <i className="fa-regular fa-sun sun"></i>;
-  const moonIcon = <i className="fa-regular fa-moon moon"></i>;
 
   const [ref, isIntersecting] = useIntersectionObserver({
     rootMargin: "-220px",
@@ -67,11 +72,8 @@ function App() {
           </p>
           <div className="toggleSwitch">
             <ReactSwitch
-              onChange={(isChecked) => toggleTheme(isChecked)}
-              value={isChecked}
-              type="checkbox"
-              inputMode="checkbox"
-              checked={isChecked === true ? true : false}
+              onChange={toggleTheme}
+              checked={isChecked}
               checkedIcon={sunIcon}
               uncheckedIcon={moonIcon}
               onColor="#daa520"

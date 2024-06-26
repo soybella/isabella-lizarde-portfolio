@@ -60,7 +60,7 @@ export default function Skills() {
           <h4>SEO</h4>
         </li>
         <li className="skills-icon">
-          <i class="fa-solid fa-mobile-screen-button"></i>
+          <i className="fa-solid fa-mobile-screen-button"></i>
           <h4>Responsive Design</h4>
         </li>
       </ul>
