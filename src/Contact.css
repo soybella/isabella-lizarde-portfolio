@@ -12,15 +12,15 @@
 }
 
 .Contact .contact-info p {
-  font-size: clamp(0.75rem, 0.5rem + 1.5vw, 1.2rem);
   max-width: 90%;
   margin: auto;
+  font-size: clamp(0.75rem, 0.5rem + 1.5vw, 1.2rem);
 }
 
 .Contact .social-media ul {
   display: block;
-  list-style-type: none;
   padding-inline-start: 0.8rem;
+  list-style-type: none;
 }
 
 .Contact .icons li {
@@ -47,8 +47,8 @@
 
 .Contact .contact-button-link {
   display: block;
-  margin: auto;
   max-inline-size: 100%;
+  margin: auto;
   padding: 1.1em 2em;
   color: white;
 }

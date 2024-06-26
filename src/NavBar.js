@@ -3,17 +3,17 @@ import logo from "./images/logo-small.png";
 import "./NavBar.css";
 
 export default function NavBar() {
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <header className="NavBar">
       <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid navbar-length p-0">
-          <a
-            className="navbar-brand"
-            href="#homepage"
-            title="Isabella's homepage"
-          >
-            <img src={logo} alt="Isabella's Logo" className="logo-small" />
-          </a>
+        <div className="container-fluid navbar-container p-0">
+          <img src={logo} alt="Isabella's Logo" className="logo-small" />
           <button
             className="navbar-toggler"
             type="button"
@@ -28,56 +28,56 @@ export default function NavBar() {
           <div className="collapse navbar-collapse navbar-list" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a
+                <button
                   className="nav-link active"
                   aria-current="page"
-                  href="#homepage"
+                  onClick={() => scrollToSection("homepage")}
                   alt="Isabella's homepage"
                   title="Isabella's homepage"
                 >
                   Home
-                </a>
+                </button>
               </li>
               <li className="nav-item">
-                <a
+                <button
                   className="nav-link"
                   aria-current="page"
-                  href="#about"
+                  onClick={() => scrollToSection("about")}
                   alt="Isabella's about page"
                   title="Isabella's about page"
                 >
                   About
-                </a>
+                </button>
               </li>
               <li className="nav-item">
-                <a
+                <button
                   className="nav-link"
-                  href="#skills"
+                  onClick={() => scrollToSection("skills")}
                   alt="Isabella's skills page"
                   title="Isabella's skills page"
                 >
                   Skills
-                </a>
+                </button>
               </li>
               <li className="nav-item">
-                <a
+                <button
                   className="nav-link"
-                  href="#projects"
+                  onClick={() => scrollToSection("projects")}
                   alt="Isabella's projects page"
                   title="Isabella's projects page"
                 >
                   Projects
-                </a>
+                </button>
               </li>
               <li className="nav-item m-0">
-                <a
+                <button
                   className="nav-link"
-                  href="#contact"
+                  onClick={() => scrollToSection("contact")}
                   alt="Isabella's contact page"
                   title="Isabella's contact page"
                 >
                   Contact
-                </a>
+                </button>
               </li>
             </ul>
           </div>

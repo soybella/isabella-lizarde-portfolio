@@ -2,7 +2,7 @@
   background: var(--background-color);
 }
 
-.NavBar .navbar-length {
+.NavBar .navbar-container {
   max-inline-size: 100%;
   margin-inline: 3rem;
 }
@@ -20,7 +20,7 @@
   font-size: 1.1rem;
 }
 
-.NavBar .nav-item a {
+.NavBar .nav-item button {
   font-weight: 500;
   color: var(--font-color);
 }
@@ -40,7 +40,8 @@
   }
 
   .NavBar .navbar-nav .nav-item {
-    text-align: end;
+    display: flex;
+    justify-content: flex-end;
     margin-inline-end: 0;
   }
 }

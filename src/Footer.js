@@ -19,6 +19,12 @@ export default function Footer() {
     }
   }, [isIntersecting, ref]);
 
+  const scrollToSection = (id) => {
+    document.getElementById(id).scrollIntoView({
+      behavior: "smooth",
+    });
+  };
+
   return (
     <footer className="Footer fade-in-section" id="#footer" ref={ref}>
       <p className="container text-center mt-3">
@@ -34,10 +40,14 @@ export default function Footer() {
         </a>{" "}
         2024
       </p>
-      <a href="#top" className="container text-center to-top-link">
+      <button
+        onClick={() => scrollToSection("homepage")}
+        className="container text-center to-top"
+        alt="Go back to Isabella's homepage"
+      >
         {" "}
         Back to top
-      </a>
+      </button>
     </footer>
   );
 }

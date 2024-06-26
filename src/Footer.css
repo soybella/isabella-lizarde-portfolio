@@ -7,16 +7,16 @@
   color: var(--green-blue-color);
 }
 
-.Footer .to-top-link {
+.Footer .to-top {
   display: flex;
   justify-content: center;
-  max-inline-size: 100%;
+  border: none;
+  background: transparent;
   text-decoration: none;
   color: var(--font-color);
-  max-width: fit-content;
 }
 
-.Footer .to-top-link:hover {
+.Footer .to-top:hover {
   color: var(--green-blue-color);
   transition: var(--transitionOnHover);
 }

@@ -27,10 +27,10 @@ export default function Main() {
     <main className="Main" id="about">
       <article className="about-container fade-in-section" ref={ref}>
         <div className="row">
-          <div className="col-lg-6 portfolio-about-image d-none d-lg-block">
+          <div className="col-lg-6 portfolio-about-image d-lg-block">
             <img
               src={profilePhoto}
-              className="img-fluid rounded"
+              className="img-fluid"
               alt="Isabella Lizarde"
             />
           </div>

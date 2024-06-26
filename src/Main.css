@@ -14,9 +14,9 @@
 }
 
 .Main .about-bio p {
+  padding: 0.7em;
   text-align: start;
   font-size: clamp(1rem, 0.75rem + 1.2vw, 1.2rem);
-  padding: 0.7em;
 }
 
 .Main .about-me-container {
@@ -37,19 +37,25 @@
 
 .Main .portfolio-about-image {
   display: flex;
+  max-inline-size: 30rem;
   margin: auto;
   padding: 1em;
-  max-inline-size: 30rem;
 }
 
 @media (width < 62rem) {
+  .Main .about-header h2 {
+    padding-block-start: 1rem;
+  }
+
   .Main .about-bio p {
+    max-inline-size: 50ch;
     text-align: center;
   }
 
-  .Main .about-me-container {
-    max-inline-size: 52rem;
-    padding-inline: 1rem;
-    text-align: center;
+  .Main .portfolio-about-image {
+    display: flex;
+    max-inline-size: 25rem;
+    margin: auto;
+    padding: 1em;
   }
 }
