@@ -43,7 +43,7 @@ function App() {
   };
 
   const [ref, isIntersecting] = useIntersectionObserver({
-    rootMargin: "-220px",
+    rootMargin: "0px",
   });
 
   useEffect(() => {

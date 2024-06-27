@@ -8,7 +8,7 @@ import "./Main.css";
 
 export default function Main() {
   const [ref, isIntersecting] = useIntersectionObserver({
-    rootMargin: "-220px",
+    rootMargin: "0px",
   });
 
   useEffect(() => {

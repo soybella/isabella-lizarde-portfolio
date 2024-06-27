@@ -5,7 +5,7 @@ import "./Contact.css";
 
 export default function Contact() {
   const [ref, isIntersecting] = useIntersectionObserver({
-    rootMargin: "-220px",
+    rootMargin: "0px",
   });
 
   useEffect(() => {

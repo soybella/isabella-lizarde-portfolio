@@ -28,6 +28,7 @@
 
 html {
   color-scheme: light;
+  opacity: 1;
 }
 
 body {
@@ -213,6 +214,7 @@ img {
 
 .visible {
   opacity: 1;
+  visibility: visible;
 }
 
 @keyframes typewriter {

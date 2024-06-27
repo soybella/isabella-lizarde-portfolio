@@ -4,7 +4,7 @@ import "./Skills.css";
 
 export default function Skills() {
   const [ref, isIntersecting] = useIntersectionObserver({
-    rootMargin: "-220px",
+    rootMargin: "0px",
   });
 
   useEffect(() => {

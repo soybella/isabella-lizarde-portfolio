@@ -5,7 +5,7 @@ import "./Projects.css";
 
 export default function TicTacToeProject() {
   const [ref, isIntersecting] = useIntersectionObserver({
-    rootMargin: "-220px",
+    rootMargin: "0px",
   });
 
   useEffect(() => {
